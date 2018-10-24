@@ -1,9 +1,9 @@
 package com.leetcode.twoSum_InputIsABST_653;
 
-import com.leetcode.TreeNode;
+import com.leetcode.common.TreeNode;
 import org.junit.Assert;
 
-import static com.leetcode.TreeNode.buildBinaryTree;
+import static com.leetcode.common.TreeNode.buildBinaryTree;
 
 
 abstract public class Solution {

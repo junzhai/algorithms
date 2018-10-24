@@ -1,7 +1,7 @@
 package com.leetcode.twoSum_InputIsABST_653;
 
 
-import com.leetcode.TreeNode;
+import com.leetcode.common.TreeNode;
 
 import java.util.HashSet;
 import java.util.Set;

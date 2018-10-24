@@ -1,7 +1,7 @@
 package com.leetcode.mergeIntervals_56;
 
 
-import com.leetcode.Interval;
+import com.leetcode.common.Interval;
 
 import java.util.ArrayList;
 import java.util.Arrays;
