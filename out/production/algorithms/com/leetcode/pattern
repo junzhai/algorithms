@@ -1,7 +1,0 @@
-1. Interval: count number of start/end;
-2. Parenthesis
-3. rectangle: histogram (liner scan then binary search)
-4. Adjacent graph nodes (913)
-5. Figure out dp (312)
-6. Liner scan then binary search
-7. Sliding window
