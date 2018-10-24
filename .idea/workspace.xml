@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a189c2-0e73-4c17-99a5-6a8075e939ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/Interval.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/ListNode.java" afterPath="$PROJECT_DIR$/src/com/leetcode/ListNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/MyCalendarThree.java" afterPath="$PROJECT_DIR$/src/com/leetcode/MyCalendarThree.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/Pattern.java" afterPath="$PROJECT_DIR$/src/com/Pattern.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/leetcode/TreeNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/UndirectedGraphNode.java" afterPath="$PROJECT_DIR$/src/com/leetcode/UndirectedGraphNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/burstBalloons_312/FirstBurstDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/burstBalloons_312/FirstBurstIterativeDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/burstBalloons_312/LastBurstDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/burstBalloons_312/LastBurstIterativeDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/burstBalloons_312/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/carFleet_853/NonStack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/carFleet_853/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/carFleet_853/UsingStack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/catAndMouse_913/DP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/catAndMouse_913/NewGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/catAndMouse_913/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/coinChange_322/BruteForce.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/coinChange_322/DPBottomUp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/coinChange_322/DPTopDown.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/coinChange_322/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/decodeWaysII_639/BackwardDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/decodeWaysII_639/ForwardDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/decodeWaysII_639/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/expressionAddOperators_282/Iterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/expressionAddOperators_282/Recursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/expressionAddOperators_282/Recursive2WithBetterExprEval.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/expressionAddOperators_282/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/implementQueueUsingStacks_232/MyQueue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/implementQueueUsingStacks_232/UsingStack_1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/implementQueueUsingStacks_232/UsingStack_2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestPalindromicSubsequence_516/Recursive2DP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestPalindromicSubsequence_516/RecursiveDP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestPalindromicSubsequence_516/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/BruteForce.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/DynamicProgramming.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/ParenthesesLevel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/UsingStack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/longestValidParentheses_32/WithoutExtraSpace.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/majorityElement_169/BoyerMooreVotingAlgorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/majorityElement_169/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maxXorOfTwoNumbersInAnArray_421/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maxXorOfTwoNumbersInAnArray_421/Trie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maxXorOfTwoNumbersInAnArray_421/UsingHashMap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maxXorOfTwoNumbersInAnArray_421/UsingTrie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maxXorOfTwoNumbersInAnArray_421/UsingTrieRecursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maximalRectangle_85/Histogram.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maximalRectangle_85/HistogramBinarySearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/maximalRectangle_85/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/medianOfTwoSortedArrays_4/BinarySearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/medianOfTwoSortedArrays_4/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/medianOfTwoSortedArrays_4/TotalNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/mergeIntervals_56/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/palindromePairs_336/HashMap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/palindromePairs_336/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/palindromePairs_336/Trie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/perfectRectangle_391/AreaCornorBoundary.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/perfectRectangle_391/CornerOnly.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/perfectRectangle_391/ScanOneDimension.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/perfectRectangle_391/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/premium/factorCombinations_254/Solution.java" afterPath="$PROJECT_DIR$/src/com/leetcode/factorCombinations_254/Solution.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/shortestSubarrayWithSumAtLeastK_862/ArrayBinarySearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/shortestSubarrayWithSumAtLeastK_862/ArrayDeque.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/shortestSubarrayWithSumAtLeastK_862/JumpingSlidingWindow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/shortestSubarrayWithSumAtLeastK_862/SlidingWindowWithSortedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/shortestSubarrayWithSumAtLeastK_862/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/twoSum_InputIsABST_653/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/twoSum_InputIsABST_653/UseBST.java" afterPath="$PROJECT_DIR$/src/com/leetcode/twoSum_InputIsABST_653/UseBST.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/twoSum_InputIsABST_653/UseHashSet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/algorithms/validParenthesisString_678/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/design/cache/LRUCache.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/design/cache/ThreadSafeLRUCache.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/leetcode/Sliding_Window_Median/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/com/leetcode/Sliding_Window_Median/SolutionTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,113 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UseBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/twoSum_InputIsABST_653/UseBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/twoSum_InputIsABST_653/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/mergeIntervals_56/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/palindromePairs_336/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/palindromePairs_336/Solution.java">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UseHashSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/twoSum_InputIsABST_653/UseHashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/validParenthesisString_678/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/maxXorOfTwoNumbersInAnArray_421/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/factorCombinations_254/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForwardDP.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/decodeWaysII_639/ForwardDP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -274,96 +96,6 @@
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="burstBalloons_312" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="decodeWaysII_639" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="factorCombinations_254" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="maxXorOfTwoNumbersInAnArray_421" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="mergeIntervals_56" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="palindromePairs_336" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="factorCombinations_254" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="twoSum_InputIsABST_653" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="validParenthesisString_678" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -538,7 +270,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="440" y="110" width="1440" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -553,7 +284,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -679,7 +410,7 @@
         <state relative-caret-position="132">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,7 +428,7 @@
         <state relative-caret-position="84">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,7 +438,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,7 +448,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,18 +466,10 @@
         <state relative-caret-position="90">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/validParenthesisString_678/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,15 +486,31 @@
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/decodeWaysII_639/ForwardDP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/validParenthesisString_678/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
