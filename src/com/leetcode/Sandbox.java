@@ -3,88 +3,134 @@ package com.leetcode;
 import org.junit.Assert;
 
 import java.util.Arrays;
-import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
 
 public class Sandbox {
-    public String frequencySort(String s) {
-        int[] o = new int[s.length() + 1];
-
-        int[] c = new int[256];
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            o[c[ch]] -= c[ch];
-            c[ch] += 1;
-            o[c[ch]] += c[ch];
-        }
-
-        for (int i = o.length - 1, su = 0; i >=0; i--) {
-            int t = o[i];
-            o[i] = su;
-            su += t;
-        }
-
-        char[] ret = new char[s.length()];
-        for (char ch = 0; ch < 256; ch++) {
-            for (int i = 0; i < c[ch]; i++) {
-                ret[o[c[ch]]] = ch;
-                o[c[ch]] += 1;
+    public int numSimilarGroups(String[] A) {
+        boolean[] v = new boolean[A.length];
+        Queue<String> q = new LinkedList<>();
+        int ret = 0;
+        for (int i = 0; i < A.length; i++) {
+            if (!v[i]) {
+                ret += 1;
+                q.offer(A[i]);
+                v[i] = true;
+                while (!q.isEmpty()) {
+                    String s = q.poll();
+                    for (int j = 0; j < A.length; j++) {
+                        if (!v[j] && check(s, A[j])) {
+                            q.offer(A[j]);
+                            v[j] = true;
+                        }
+                    }
+                }
             }
         }
-
-        return String.valueOf(ret);
+        return ret;
     }
 
-    public String frequencySort1(String s) {
-        Character[] o = new Character[256];
-        for (char i = 0; i < 256; i++) {
-            o[i] = i;
-        }
+    public int numSimilarGroups2(String[] A) {
+        int[] union = new int[A.length];
+        Arrays.fill(union, -1);
+        int ret = A.length;
 
-        int[] c = new int[256];
-        char min = 255, max = 0;
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            c[ch] += 1;
-            min = (char) Math.min((int) min, (int) ch);
-            max = (char) Math.max((int) max, (int) ch);
-        }
-        if (min > max) {
-            min = max;
-        }
+        for (int i = 0; i < A.length - 1; i++) {
+            for (int j = i + 1; j < A.length; j++) {
+                int p = i, p1 = j;
+                while (union[p] != -1) {
+                    p = union[p];
+                }
+                while (union[p1] != -1) {
+                    p1 = union[p1];
+                }
 
-        Arrays.sort(o, (int) min, (int) max + 1, new Comparator<Character>() {
-            public int compare(Character i1, Character i2) {
-                return c[i2.charValue()] - c[i1.charValue()];
-            }
-        });
+                if (p1 == p) {
+                    continue;
+                }
 
-        StringBuilder sb = new StringBuilder();
-        for (int i = min; i <= max; i++) {
-            char ch = o[i];
-            if (c[ch] == 0) {
-                break;
-            }
-            for (int k = 0; k < c[ch]; k++) {
-                sb.append(ch);
+                if (check(A[i], A[j])) {
+                    if (p > p1) {
+                        union[p] = p1;
+                        ret -= 1;
+                    } else if (p < p1) {
+                        union[p1] = p;
+                        ret -= 1;
+                    }
+                }
             }
         }
-        return sb.toString();
+        return ret;
     }
+
+    private boolean check(String a, String b) {
+        int diff = 0;
+        for (int k = 0; k < a.length(); k++) {
+            if (a.charAt(k) != b.charAt(k)) {
+                diff += 1;
+            }
+        }
+
+        return diff == 2 || diff == 0;
+    }
+
+    public int numSimilarGroups1(String[] A) {
+        int[] union = new int[A.length];
+        Arrays.fill(union, -1);
+
+        Map<String, Integer> m = new HashMap<>();
+        for (int i = 0; i < A.length; i++) {
+            m.put(A[i], i);
+        }
+        int ret = m.size();
+
+        for (String key : m.keySet()) {
+            int p = m.get(key);
+            char[] arr = key.toCharArray();
+            for (int j = 0; j < arr.length - 1; j++) {
+                for (int k = j + 1; k < arr.length; k++) {
+                    char t = arr[j];
+                    arr[j] = arr[k];
+                    arr[k] = t;
+                    String ns = String.valueOf(arr);
+                    if (m.containsKey(ns)) {
+                        int p1 = m.get(ns);
+                        while (union[p] != -1) {
+                            p = union[p];
+                        }
+                        while (union[p1] != -1) {
+                            p1 = union[p1];
+                        }
+
+                        if (p > p1) {
+                            union[p] = p1;
+                            ret -= 1;
+                        } else if (p < p1) {
+                            union[p1] = p;
+                            ret -= 1;
+                        }
+                    }
+                    t = arr[j];
+                    arr[j] = arr[k];
+                    arr[k] = t;
+                }
+            }
+        }
+        return ret;
+    }
+
 
     public static void main(String[] args) {
         Sandbox s = new Sandbox();
-        String ret;
+        int ret;
 
-        ret = s.frequencySort("raaeaedere");
+        ret = s.numSimilarGroups(new String[]{"aa", "aa", "aa"});
+        Assert.assertEquals(1, ret);
 
-        ret = s.frequencySort("eeeee");
+        ret = s.numSimilarGroups(new String[]{"tars", "rats", "arts", "star"});
+        Assert.assertEquals(2, ret);
 
-        ret = s.frequencySort("tee");
-
-        ret = s.frequencySort("");
-        Assert.assertEquals("", ret);
-
-        ret = s.frequencySort("tree");
-//        Assert.assertEquals(0, ret);
     }
 }
