@@ -1,7 +1,9 @@
 package com.leetcode.burstBalloons_312;
 
+import com.pattern.DP;
 import org.junit.Assert;
 
+@DP
 abstract public class Solution {
     abstract public int maxCoins(int[] nums);
 

@@ -19,15 +19,6 @@ public class Pattern {
             913
     };
 
-    /**
-     * 不同形态的动态规划
-     */
-    int[] Figure_out_DP = new int[]{
-            913,
-            312,
-            115
-    };
-
     // Liner scan, then binary search, then truncate or replace
     int[] Liner_Scan = new int[]{
             85,
