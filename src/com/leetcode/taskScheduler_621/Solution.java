@@ -1,12 +1,10 @@
-package com.leetcode;
+package com.leetcode.taskScheduler_621;
 
-import com.pattern.Find_Specific_Strategy;
 import org.junit.Assert;
 
 import java.util.Arrays;
 
-@Find_Specific_Strategy
-public class Sandbox {
+public class Solution {
     public int leastInterval(char[] tasks, int n) {
         if (n == 0) {
             return tasks.length;
@@ -55,7 +53,7 @@ public class Sandbox {
     }
 
     public static void main(String[] args) {
-        Sandbox s = new Sandbox();
+        Solution s = new Solution();
         int ret;
 
         ret = s.leastInterval(new char[]{'A', 'B', 'C', 'D', 'E', 'A', 'B', 'C', 'D', 'E'}, 4);

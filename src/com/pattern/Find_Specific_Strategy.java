@@ -8,10 +8,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface FindUnion {
-    String desc() default "Find Union";
+public @interface Find_Specific_Strategy {
+    String desc() default "寻找一种具体方案";
 
     String[] problems() default {
-            "839. Similar String Groups"
+            "621. Task Scheduler",
+            "765. Couples Holding Hands"
     };
 }
