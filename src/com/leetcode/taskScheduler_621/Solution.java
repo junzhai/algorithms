@@ -1,9 +1,11 @@
 package com.leetcode.taskScheduler_621;
 
+import com.pattern.Find_Specific_Strategy;
 import org.junit.Assert;
 
 import java.util.Arrays;
 
+@Find_Specific_Strategy
 public class Solution {
     public int leastInterval(char[] tasks, int n) {
         if (n == 0) {
