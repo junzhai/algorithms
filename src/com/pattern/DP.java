@@ -11,10 +11,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public @interface DP {
     String desc() default "不同形态的动态规划（迭代）";
 
-    int[] problems() default {
-            913,
-            312,
-            115,
-            124
+    String[] problems() default {
+            "913",
+            "312",
+            "115",
+            "124",
+            "338. Counting Bits （主动扩散）"
     };
 }
