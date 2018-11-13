@@ -8,8 +8,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface FindUnion {
-    String desc() default "Find Union";
+public @interface UnionFind {
+    String desc() default "Union Find";
 
     String[] problems() default {
             "839. Similar String Groups"

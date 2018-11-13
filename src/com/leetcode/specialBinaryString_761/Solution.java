@@ -1,6 +1,5 @@
 package com.leetcode.specialBinaryString_761;
 
-import com.leetcode.Sandbox;
 import com.pattern.UnSortedArray;
 import org.junit.Assert;
 
@@ -85,7 +84,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Sandbox s = new Sandbox();
+        Solution s = new Solution();
         String ret;
 
         ret = s.makeLargestSpecial("1011001010");

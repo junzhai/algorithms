@@ -11,6 +11,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public @interface BFS {
     String desc() default "广度优先搜索，使用 1/2 queue";
 
-    int[] problems() default {
+    String[] problems() default {
+            "785. Is Graph Bipartite?",
     };
 }
