@@ -1,8 +1,11 @@
-package com.leetcode;
+package com.leetcode.specialBinaryString_761;
 
+import com.leetcode.Sandbox;
+import com.pattern.UnSortedArray;
 import org.junit.Assert;
 
-public class Sandbox {
+@UnSortedArray
+public class Solution {
     public String makeLargestSpecial(String S) {
         int len = S.length(), l = 1;
         char[] chs = S.toCharArray(), buf = new char[len];
