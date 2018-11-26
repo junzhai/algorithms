@@ -8,11 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface UnionFind {
-    String desc() default "Union Find";
+public @interface MatrixMultiplication {
+    String desc() default "矩阵乘法";
 
     String[] problems() default {
-            "839. Similar String Groups",
-            "924. Minimize Malware Spread"
+            "924. Minimize Malware Spread （矩阵乘法计算图中顶点的连通性）"
     };
 }
