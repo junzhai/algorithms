@@ -1,9 +1,9 @@
-package com.leetcode;
+package com.leetcode.miniParser_385;
 
 import com.leetcode.common.NestedInteger;
-import org.junit.Assert;
 
-public class Sandbox {
+public class Recursive extends Solution {
+    @Override
     public NestedInteger deserialize(String s) {
         return helper(s, new int[1]);
     }
@@ -45,13 +45,5 @@ public class Sandbox {
 
         p[0] += 1;
         return ret;
-    }
-
-    public static void main(String[] args) {
-        Sandbox s = new Sandbox();
-        NestedInteger ret;
-
-        ret = s.deserialize("-3");
-
     }
 }
