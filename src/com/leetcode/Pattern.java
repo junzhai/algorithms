@@ -10,11 +10,6 @@ public class Pattern {
     int[] Parenthesis = new int[]{
     };
 
-    // liner scan
-    int[] histogram_in_rectangle = new int[]{
-            85
-    };
-
     int[] Adjacent_Graph_Nodes = new int[]{
             913
     };

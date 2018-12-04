@@ -18,6 +18,7 @@ public @interface DP {
             "124",
             "338. Counting Bits （主动扩散）",
             "549. Binary Tree Longest Consecutive Sequence II （树的父子迭代）",
-            "903. Valid Permutations for DI Sequence （迭代并限制发散）"
+            "903. Valid Permutations for DI Sequence （迭代并限制发散）",
+            "730. Count Different Palindromic Subsequences  （Histogram 且迭代）",
     };
 }
