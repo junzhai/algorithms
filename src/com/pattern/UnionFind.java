@@ -13,6 +13,7 @@ public @interface UnionFind {
 
     String[] problems() default {
             "839. Similar String Groups",
-            "924. Minimize Malware Spread"
+            "924. Minimize Malware Spread",
+            "547. Friend Circles",
     };
 }

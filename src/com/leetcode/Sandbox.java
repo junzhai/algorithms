@@ -1,57 +1,52 @@
 package com.leetcode;
 
-import com.leetcode.common.NestedInteger;
 import org.junit.Assert;
 
+import java.util.Arrays;
+
 public class Sandbox {
-    public NestedInteger deserialize(String s) {
-        return helper(s, new int[1]);
-    }
+    public int numRescueBoats(int[] people, int limit) {
+        Arrays.sort(people);
+        int b = 0, l = people.length, ret = 0;
+        while (b < l) {
+            if (b == l - 1) {
+                ret += 1;
+                break;
+            }
+            int target = limit - people[b];
+            int p = Arrays.binarySearch(people, b, l, target);
+            if (p >= 0) {
+                while (p < l - 1 && people[p + 1] == target) {
+                    p += 1;
+                }
 
-    private NestedInteger helper(String s, int[] p) {
-        NestedInteger ret;
-        char ch = s.charAt(p[0]);
-        if (ch == '-' || Character.isDigit(ch)) {
-            boolean neg = ch == '-';
-            if (neg) {
-                p[0] += 1;
-            }
-            int end = p[0];
-            while (end < s.length() && Character.isDigit(s.charAt(end))) {
-                end += 1;
-            }
-            int v = Integer.parseInt(s.substring(p[0], end));
-            if (neg) {
-                v = -v;
-            }
-            ret = new NestedInteger(v);
-            p[0] = end;
-            return ret;
-        }
-
-        ret = new NestedInteger();
-        p[0] += 1;
-        ch = s.charAt(p[0]);
-        while (ch != ']') {
-            if (ch == '-' || Character.isDigit(ch)) {
-                ret.add(helper(s, p));
-            } else if (ch == ',') {
-                p[0] += 1;
+                ret += l - p;
+                l = p;
+                b += 1;
             } else {
-                ret.add(helper(s, p));
+                p = -p - 1;
+                ret += l - p;
+                if (p <= b) {
+                    break;
+                }
+                ret += 1;
+                l = p - 1;
+                b += 1;
             }
-            ch = s.charAt(p[0]);
         }
-
-        p[0] += 1;
         return ret;
     }
 
     public static void main(String[] args) {
         Sandbox s = new Sandbox();
-        NestedInteger ret;
+        int ret;
 
-        ret = s.deserialize("-3");
+        ret = s.numRescueBoats(new int[]{4, 9, 3, 1, 1, 7, 6, 10, 10, 10, 1, 8, 8, 7, 8, 10, 7, 4, 6, 3, 6, 1, 2, 4,
+                8, 8, 4, 7, 1, 2, 10, 3, 4, 6, 3, 5, 3, 1, 2, 6, 1, 5, 4, 5, 1, 10, 5, 9, 10, 4}, 10);
+        Assert.assertEquals(29, ret);
+
+        ret = s.numRescueBoats(new int[]{1, 3, 4, 3, 3, 5}, 5);
+        Assert.assertEquals(5, ret);
 
     }
 }
