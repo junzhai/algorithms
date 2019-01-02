@@ -20,6 +20,7 @@ public @interface DP {
             "549. Binary Tree Longest Consecutive Sequence II （树的父子迭代）",
             "903. Valid Permutations for DI Sequence （迭代并限制发散）",
             "730. Count Different Palindromic Subsequences  （Histogram 且迭代）",
-            "62. Unique Paths"
+            "62. Unique Paths",
+            "542. 01 Matrix"
     };
 }
