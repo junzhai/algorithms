@@ -21,6 +21,7 @@ public @interface DP {
             "903. Valid Permutations for DI Sequence （迭代并限制发散）",
             "730. Count Different Palindromic Subsequences  （Histogram 且迭代）",
             "62. Unique Paths",
-            "542. 01 Matrix"
+            "542. 01 Matrix",
+            "756. Pyramid Transition Matrix"
     };
 }
