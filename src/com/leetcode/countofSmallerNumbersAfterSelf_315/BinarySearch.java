@@ -1,9 +1,12 @@
 package com.leetcode.countofSmallerNumbersAfterSelf_315;
 
+import com.pattern.UnSortedArray;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@UnSortedArray
 public class BinarySearch extends Solution {
     @Override
     public List<Integer> countSmaller(int[] nums) {
