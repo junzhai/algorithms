@@ -9,7 +9,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target({TYPE})
 public @interface DP {
-    String desc() default "不同形态的动态规划（迭代），不能发散";
+    String desc() default "不同形态的动态规划（迭代），不能发散。迭代过程中注意收集多种信息。";
 
     String[] problems() default {
             "913",
