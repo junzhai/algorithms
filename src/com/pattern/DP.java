@@ -24,6 +24,7 @@ public @interface DP {
             "542. 01 Matrix",
             "756. Pyramid Transition Matrix",
             "309. Best Time to Buy and Sell Stock with Cooldown",
-            "375. Guess Number Higher or Lower II"
+            "375. Guess Number Higher or Lower II",
+            "790. Domino and Tromino Tiling"
     };
 }
