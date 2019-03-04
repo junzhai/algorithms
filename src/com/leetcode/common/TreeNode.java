@@ -16,6 +16,9 @@ public class TreeNode {
                 q.offer(p.left);
             }
             i += 1;
+            if (i >= val.length) {
+                break;
+            }
             if (val[i] != null) {
                 p.right = new TreeNode(val[i]);
                 q.offer(p.right);
