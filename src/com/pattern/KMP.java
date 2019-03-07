@@ -11,7 +11,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public @interface KMP {
     String desc() default "String KMP 算法, 最长 prefix == suffix in String pattern";
 
-    int[] problems() default {
-            28
+    String[] problems() default {
+            "28",
+            "44. Wildcard Matching. (KMP with variations)"
     };
 }
