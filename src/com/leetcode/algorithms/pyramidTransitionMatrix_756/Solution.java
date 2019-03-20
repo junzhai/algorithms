@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.pyramidTransitionMatrix_756;
 
-import com.pattern.DP;
+import com.leetcode.algorithms.pattern.DP;
 import org.junit.Assert;
 
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.stickerstoSpellWord_691;
 
-import com.pattern.BackTracking;
+import com.leetcode.algorithms.pattern.BackTracking;
 
 @BackTracking
 public class BruteForce extends Solution {

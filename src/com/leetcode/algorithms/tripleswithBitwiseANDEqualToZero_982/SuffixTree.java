@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.tripleswithBitwiseANDEqualToZero_982;
 
-import com.pattern.Trie;
+import com.leetcode.algorithms.pattern.Trie;
 
 @Trie
 public class SuffixTree extends Solution {

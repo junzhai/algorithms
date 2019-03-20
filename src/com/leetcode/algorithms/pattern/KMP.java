@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,10 +8,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface DPInTree {
-    String desc() default "树中的动态规划";
+public @interface KMP {
+    String desc() default "String KMP 算法, 最长 prefix == suffix in String pattern";
 
     String[] problems() default {
-            "742. Closest Leaf in a Binary Tree",
+            "28",
+            "44. Wildcard Matching. (KMP with variations)"
     };
 }

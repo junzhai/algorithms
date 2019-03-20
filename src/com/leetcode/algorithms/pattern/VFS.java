@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,10 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface BFS {
-    String desc() default "广度优先搜索，使用 1/2 queue";
+public @interface VFS {
+    String desc() default "Value first search: （使用堆进行遍历）";
 
     String[] problems() default {
-            "785. Is Graph Bipartite?",
+            "778. Swim in Rising Water",
     };
 }

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.trappingRainWater_42;
 
-import com.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArray;
 import org.junit.Assert;
 
 import java.util.Arrays;

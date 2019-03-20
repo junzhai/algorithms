@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.premium.factorCombinations_254;
 
-import com.Pattern;
+import com.leetcode.algorithms.Pattern;
 
 import java.util.ArrayList;
 import java.util.List;

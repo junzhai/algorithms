@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.wordLadderII_126;
 
-import com.pattern.BFS;
+import com.leetcode.algorithms.pattern.BFS;
 
 import java.util.ArrayList;
 import java.util.Arrays;

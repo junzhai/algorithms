@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.countDifferentPalindromicSubsequences_730;
 
-import com.pattern.DP;
-import com.pattern.Histogram;
+import com.leetcode.algorithms.pattern.DP;
+import com.leetcode.algorithms.pattern.Histogram;
 
 @Histogram
 @DP

@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-@com.pattern.BFS
+@com.leetcode.algorithms.pattern.BFS
 public class BFS extends Solution {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         Set<Character> chars = new HashSet<>();

@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,11 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface Histogram {
-    String desc() default "Scan ordered elements once, dealing with unordered associations.";
+public @interface SegmentTree {
+    String desc() default "1D, 2D, ...";
 
     String[] problems() default {
-            "85",
-            "730. Count Different Palindromic Subsequences",
+            "308. Range Sum Query 2D - Mutable",
     };
 }

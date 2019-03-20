@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;

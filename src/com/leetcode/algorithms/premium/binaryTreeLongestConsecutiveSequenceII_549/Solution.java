@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.premium.binaryTreeLongestConsecutiveSequenceII_549;
 
 import com.leetcode.algorithms.common.TreeNode;
-import com.pattern.DP;
+import com.leetcode.algorithms.pattern.DP;
 import org.junit.Assert;
 
 /**

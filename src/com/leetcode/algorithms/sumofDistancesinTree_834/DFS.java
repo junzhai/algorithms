@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-@com.pattern.DFS
+@com.leetcode.algorithms.pattern.DFS
 public class DFS extends Solution {
     @Override
     public int[] sumOfDistancesInTree(int N, int[][] edges) {

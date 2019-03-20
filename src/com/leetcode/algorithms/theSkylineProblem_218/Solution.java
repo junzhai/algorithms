@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.theSkylineProblem_218;
 
-import com.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArray;
 
 import java.util.ArrayList;
 import java.util.Comparator;

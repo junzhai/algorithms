@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,10 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface K_Largest_In_Heap {
-    String desc() default "Using heap to maintain K largest incoming elements";
+public @interface DFS {
+    String desc() default "深度优先搜索";
 
-    int[] problems() default {
-            215
+    String[] problems() default {
+            "785. Is Graph Bipartite?",
     };
 }

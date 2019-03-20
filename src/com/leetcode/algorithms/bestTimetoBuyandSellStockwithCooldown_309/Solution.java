@@ -1,6 +1,7 @@
 package com.leetcode.algorithms.bestTimetoBuyandSellStockwithCooldown_309;
 
-import com.pattern.DP;
+
+import com.leetcode.algorithms.pattern.DP;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.taskScheduler_621;
 
-import com.pattern.Find_Specific_Strategy;
+import com.leetcode.algorithms.pattern.Find_Specific_Strategy;
 import org.junit.Assert;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,10 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface VFS {
-    String desc() default "Value first search: （使用堆进行遍历）";
+public @interface MatrixMultiplication {
+    String desc() default "矩阵乘法";
 
     String[] problems() default {
-            "778. Swim in Rising Water",
+            "924. Minimize Malware Spread （矩阵乘法计算图中顶点的连通性）"
     };
 }

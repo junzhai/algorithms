@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.fruitIntoBaskets_904;
 
-import com.pattern.SlidingWindow;
+import com.leetcode.algorithms.pattern.SlidingWindow;
 
 import static org.junit.Assert.assertEquals;
 

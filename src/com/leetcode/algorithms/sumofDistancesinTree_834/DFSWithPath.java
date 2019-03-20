@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.sumofDistancesinTree_834;
 
-import com.pattern.DFS;
+import com.leetcode.algorithms.pattern.DFS;
 
 import java.util.Arrays;
 

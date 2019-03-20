@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class DP extends Solution {
     @Override
-    int catMouseGame(int[][] graph) {
+    public int catMouseGame(int[][] graph) {
         int l = graph.length;
         int[] full = new int[l];
         for (int i = 1; i < l; i++) {

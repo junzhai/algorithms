@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.tripleswithBitwiseANDEqualToZero_982;
 
-@com.pattern.Trie
+@com.leetcode.algorithms.pattern.Trie
 public class Trie extends Solution {
     private static class TrieNode {
         int count = 0;

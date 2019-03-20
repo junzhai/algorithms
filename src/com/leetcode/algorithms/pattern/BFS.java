@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.algorithms.pattern;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -8,10 +8,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface SegmentTree {
-    String desc() default "1D, 2D, ...";
+public @interface BFS {
+    String desc() default "广度优先搜索，使用 1/2 queue";
 
     String[] problems() default {
-            "308. Range Sum Query 2D - Mutable",
+            "785. Is Graph Bipartite?",
     };
 }
