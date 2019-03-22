@@ -1,5 +1,7 @@
 package com.leetcode.algorithms.FourSum_18;
 
+import com.leetcode.algorithms.pattern.Enumeration;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,6 +9,7 @@ import java.util.List;
 /**
  * O(n3)
  */
+@Enumeration
 public class Sum3Sum2 extends Solution {
     @Override
     public List<List<Integer>> fourSum(int[] nums, int target) {

@@ -26,6 +26,7 @@ public @interface DP {
             "309. Best Time to Buy and Sell Stock with Cooldown",
             "375. Guess Number Higher or Lower II",
             "790. Domino and Tromino Tiling",
-            "486. Predict the Winner"
+            "486. Predict the Winner",
+            "873. Length of Longest Fibonacci Subsequence"
     };
 }
