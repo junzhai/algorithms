@@ -27,6 +27,7 @@ public @interface DP {
             "375. Guess Number Higher or Lower II",
             "790. Domino and Tromino Tiling",
             "486. Predict the Winner",
-            "873. Length of Longest Fibonacci Subsequence"
+            "873. Length of Longest Fibonacci Subsequence",
+            "920. Number of Music Playlists"
     };
 }
