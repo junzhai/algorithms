@@ -28,6 +28,7 @@ public @interface DP {
             "790. Domino and Tromino Tiling",
             "486. Predict the Winner",
             "873. Length of Longest Fibonacci Subsequence",
-            "920. Number of Music Playlists"
+            "920. Number of Music Playlists",
+            "410. Split Array Largest Sum"
     };
 }
