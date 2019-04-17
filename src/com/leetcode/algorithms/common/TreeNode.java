@@ -5,6 +5,10 @@ import java.util.Queue;
 
 public class TreeNode {
     public static TreeNode buildBinaryTree(Integer[] val) {
+        if (val.length == 0) {
+            return null;
+        }
+
         Queue<TreeNode> q = new LinkedList<>();
         TreeNode ret = new TreeNode(val[0]);
         q.offer(ret);
