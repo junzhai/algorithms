@@ -31,6 +31,7 @@ public @interface DP {
             "920. Number of Music Playlists",
             "410. Split Array Largest Sum",
             "940. Distinct Subsequences II",
-            "514. Freedom Trail"
+            "514. Freedom Trail",
+            "132. Palindrome Partitioning II"
     };
 }
