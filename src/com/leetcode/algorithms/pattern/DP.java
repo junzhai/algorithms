@@ -32,6 +32,8 @@ public @interface DP {
             "410. Split Array Largest Sum",
             "940. Distinct Subsequences II",
             "514. Freedom Trail",
-            "132. Palindrome Partitioning II"
+            "132. Palindrome Partitioning II",
+            "983. Minimum Cost For Tickets",
+            "808. Soup Servings"
     };
 }
