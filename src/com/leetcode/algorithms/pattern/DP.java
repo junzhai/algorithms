@@ -34,6 +34,7 @@ public @interface DP {
             "514. Freedom Trail",
             "132. Palindrome Partitioning II",
             "983. Minimum Cost For Tickets",
-            "808. Soup Servings"
+            "808. Soup Servings",
+            "446. Arithmetic Slices II - Subsequence"
     };
 }
