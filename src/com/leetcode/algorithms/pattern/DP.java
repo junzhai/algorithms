@@ -35,6 +35,7 @@ public @interface DP {
             "132. Palindrome Partitioning II",
             "983. Minimum Cost For Tickets",
             "808. Soup Servings",
-            "446. Arithmetic Slices II - Subsequence"
+            "446. Arithmetic Slices II - Subsequence",
+            "718. Maximum Length of Repeated Subarray"
     };
 }
