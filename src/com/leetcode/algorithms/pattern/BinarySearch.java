@@ -13,5 +13,6 @@ public @interface BinarySearch {
 
     String[] problems() default {
             "719. Find K-th Smallest Pair Distance",
+            "1011. Capacity To Ship Packages Within D Days"
     };
 }
