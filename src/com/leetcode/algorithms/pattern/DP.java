@@ -38,6 +38,7 @@ public @interface DP {
             "446. Arithmetic Slices II - Subsequence",
             "718. Maximum Length of Repeated Subarray",
             "45. Jump Game II",
-            "712. Minimum ASCII Delete Sum for Two Strings"
+            "712. Minimum ASCII Delete Sum for Two Strings",
+            "818. Race Car (Convolution, 回旋)"
     };
 }
