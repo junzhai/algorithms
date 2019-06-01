@@ -41,6 +41,7 @@ public @interface DP {
             "712. Minimum ASCII Delete Sum for Two Strings",
             "818. Race Car (Convolution, 回旋)",
             "435. Non-overlapping Intervals",
-            "854. K-Similar Strings"
+            "854. K-Similar Strings",
+            "740. Delete and Earn"
     };
 }
