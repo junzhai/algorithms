@@ -41,7 +41,8 @@ public @interface DP {
             "712. Minimum ASCII Delete Sum for Two Strings",
             "818. Race Car (Convolution, 回旋)",
             "435. Non-overlapping Intervals",
-            "854. K-Similar Strings",
-            "740. Delete and Earn"
+            "854. K-Similar Strings (路径不明的动态规划, similar to 943)",
+            "740. Delete and Earn",
+            "943. Find the Shortest Superstring (路径不明的动态规划, similar to 854)"
     };
 }
