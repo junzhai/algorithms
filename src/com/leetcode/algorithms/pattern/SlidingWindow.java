@@ -14,6 +14,7 @@ public @interface SlidingWindow {
     String[] problems() default {
             "904. Fruit Into Baskets",
             "209. Minimum Size Subarray Sum",
-            "1052. Grumpy Bookstore Owner"
+            "1052. Grumpy Bookstore Owner",
+            "713. Subarray Product Less Than K (滑动窗口本质上可能就是一种动态规划)"
     };
 }

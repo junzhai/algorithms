@@ -44,6 +44,7 @@ public @interface DP {
             "854. K-Similar Strings (路径不明的动态规划, similar to 943)",
             "740. Delete and Earn",
             "943. Find the Shortest Superstring (路径不明的动态规划, similar to 854)",
-            "847. Shortest Path Visiting All Nodes (规划路径是树或图的后根遍历)"
+            "847. Shortest Path Visiting All Nodes (规划路径是树或图的后根遍历)",
+            "713. Subarray Product Less Than K"
     };
 }
