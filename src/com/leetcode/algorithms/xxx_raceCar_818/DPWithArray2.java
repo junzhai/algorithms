@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.raceCar_818_xxx;
+package com.leetcode.algorithms.xxx_raceCar_818;
 
 import com.leetcode.algorithms.pattern.DP;
 

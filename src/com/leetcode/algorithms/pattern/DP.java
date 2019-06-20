@@ -9,7 +9,9 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target({TYPE})
 public @interface DP {
-    public String desc() default "不同形态的动态规划（迭代），不能发散。迭代过程中注意收集多种信息。";
+    public String desc() default "不同形态的动态规划（迭代），不能发散。"
+            + "迭代过程中注意收集多种信息。"
+            + "动态规划的核心是对中间状态的分类";
 
     public String[] problems() default {
             "913",
@@ -45,6 +47,7 @@ public @interface DP {
             "740. Delete and Earn",
             "943. Find the Shortest Superstring (路径不明的动态规划, similar to 854)",
             "847. Shortest Path Visiting All Nodes (规划路径是树或图的后根遍历)",
-            "713. Subarray Product Less Than K"
+            "713. Subarray Product Less Than K",
+            "956. Tallest Billboard (动态规划的核心是对中间状态的分类)"
     };
 }
