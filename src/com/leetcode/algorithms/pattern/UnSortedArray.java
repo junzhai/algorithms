@@ -16,5 +16,6 @@ public @interface UnSortedArray {
             "315. Count of Smaller Numbers After Self",
             "42. Trapping Rain Water",
             "218. The Skyline Problem",
+            "962. Maximum Width Ramp"
     };
 }
