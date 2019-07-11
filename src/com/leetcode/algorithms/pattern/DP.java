@@ -48,6 +48,7 @@ public @interface DP {
             "943. Find the Shortest Superstring (路径不明的动态规划, similar to 854)",
             "847. Shortest Path Visiting All Nodes (规划路径是树或图的后根遍历)",
             "713. Subarray Product Less Than K",
-            "956. Tallest Billboard (动态规划的核心是对中间状态的分类)"
+            "956. Tallest Billboard (动态规划的核心是对中间状态的分类)",
+            "416. Partition Equal Subset Sum"
     };
 }
