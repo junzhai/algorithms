@@ -14,5 +14,6 @@ public @interface Histogram {
     String[] problems() default {
             "85",
             "730. Count Different Palindromic Subsequences",
+            "84. Largest Rectangle in Histogram"
     };
 }
