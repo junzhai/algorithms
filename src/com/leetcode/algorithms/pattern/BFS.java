@@ -13,5 +13,6 @@ public @interface BFS {
 
     String[] problems() default {
             "785. Is Graph Bipartite?",
+            "773. Sliding Puzzle"
     };
 }
