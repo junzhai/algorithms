@@ -50,6 +50,7 @@ public @interface DP {
             "713. Subarray Product Less Than K",
             "956. Tallest Billboard (动态规划的核心是对中间状态的分类)",
             "416. Partition Equal Subset Sum",
-            "1039. Minimum Score Triangulation of Polygon"
+            "1039. Minimum Score Triangulation of Polygon",
+            "926. Flip String to Monotone Increasing"
     };
 }
