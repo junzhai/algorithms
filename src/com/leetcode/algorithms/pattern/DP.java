@@ -51,6 +51,7 @@ public @interface DP {
             "956. Tallest Billboard (动态规划的核心是对中间状态的分类)",
             "416. Partition Equal Subset Sum",
             "1039. Minimum Score Triangulation of Polygon",
-            "926. Flip String to Monotone Increasing"
+            "926. Flip String to Monotone Increasing",
+            "673. Number of Longest Increasing Subsequence"
     };
 }
