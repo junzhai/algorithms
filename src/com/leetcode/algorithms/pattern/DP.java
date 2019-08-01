@@ -52,6 +52,7 @@ public @interface DP {
             "416. Partition Equal Subset Sum",
             "1039. Minimum Score Triangulation of Polygon",
             "926. Flip String to Monotone Increasing",
-            "673. Number of Longest Increasing Subsequence"
+            "673. Number of Longest Increasing Subsequence",
+            "992. Subarrays with K Different Integers"
     };
 }

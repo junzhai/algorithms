@@ -15,6 +15,7 @@ public @interface SlidingWindow {
             "904. Fruit Into Baskets",
             "209. Minimum Size Subarray Sum",
             "1052. Grumpy Bookstore Owner",
-            "713. Subarray Product Less Than K (滑动窗口本质上可能就是一种动态规划)"
+            "713. Subarray Product Less Than K (滑动窗口本质上可能就是一种动态规划)",
+            "992. Subarrays with K Different Integers"
     };
 }
