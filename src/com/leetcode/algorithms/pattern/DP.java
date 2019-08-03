@@ -53,6 +53,7 @@ public @interface DP {
             "1039. Minimum Score Triangulation of Polygon",
             "926. Flip String to Monotone Increasing",
             "673. Number of Longest Increasing Subsequence",
-            "992. Subarrays with K Different Integers"
+            "992. Subarrays with K Different Integers",
+            "53. Maximum Subarray"
     };
 }
