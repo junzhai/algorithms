@@ -54,6 +54,7 @@ public @interface DP {
             "926. Flip String to Monotone Increasing",
             "673. Number of Longest Increasing Subsequence",
             "992. Subarrays with K Different Integers",
-            "53. Maximum Subarray"
+            "53. Maximum Subarray",
+            "837. New 21 Game"
     };
 }
