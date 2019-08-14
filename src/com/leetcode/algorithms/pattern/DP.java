@@ -55,6 +55,7 @@ public @interface DP {
             "673. Number of Longest Increasing Subsequence",
             "992. Subarrays with K Different Integers",
             "53. Maximum Subarray",
-            "837. New 21 Game"
+            "837. New 21 Game",
+            "1105. Filling Bookcase Shelves (动态规划隐含一种穷举)"
     };
 }
