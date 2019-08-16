@@ -15,6 +15,7 @@ public @interface UnionFind {
             "839. Similar String Groups",
             "924. Minimize Malware Spread",
             "547. Friend Circles",
-            "947. Most Stones Removed with Same Row or Column"
+            "947. Most Stones Removed with Same Row or Column",
+            "695. Max Area of Island"
     };
 }

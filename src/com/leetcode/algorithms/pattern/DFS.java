@@ -14,6 +14,7 @@ public @interface DFS {
     String[] problems() default {
             "785. Is Graph Bipartite?",
             "22. Generate Parentheses",
-            "140. Word Break II"
+            "140. Word Break II",
+            "695. Max Area of Island"
     };
 }
