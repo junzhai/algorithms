@@ -8,10 +8,12 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface SegmentTree {
-    String desc() default "1D, 2D, ...";
+public @interface SegmentOrAreaOrKDTree {
+    String desc() default "1D, 2D, ... Tree node can hold different segment or area infomation." +
+            "本质上是一种特殊的二分查找树";
 
     String[] problems() default {
             "308. Range Sum Query 2D - Mutable",
+            "850. Rectangle Area II"
     };
 }

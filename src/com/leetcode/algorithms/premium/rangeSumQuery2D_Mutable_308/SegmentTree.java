@@ -1,6 +1,8 @@
 package com.leetcode.algorithms.premium.rangeSumQuery2D_Mutable_308;
 
-@com.leetcode.algorithms.pattern.SegmentTree
+import com.leetcode.algorithms.pattern.SegmentOrAreaOrKDTree;
+
+@SegmentOrAreaOrKDTree
 public class SegmentTree extends NumMatrix {
     public static class SegmentTreeNode {
         int row1;
