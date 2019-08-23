@@ -56,6 +56,7 @@ public @interface DP {
             "992. Subarrays with K Different Integers",
             "53. Maximum Subarray",
             "837. New 21 Game",
-            "1105. Filling Bookcase Shelves (动态规划隐含一种穷举)"
+            "1105. Filling Bookcase Shelves (动态规划隐含一种穷举)",
+            "813. Largest Sum of Averages"
     };
 }
