@@ -14,6 +14,7 @@ public @interface Find_Specific_Strategy {
     String[] problems() default {
             "621. Task Scheduler",
             "765. Couples Holding Hands",
-            "630. Course Schedule III"
+            "630. Course Schedule III",
+            "753. Cracking the Safe"
     };
 }
