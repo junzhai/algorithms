@@ -14,6 +14,7 @@ public @interface SegmentOrAreaOrKDTree {
 
     String[] problems() default {
             "308. Range Sum Query 2D - Mutable",
-            "850. Rectangle Area II"
+            "850. Rectangle Area II（父子节点区域不相交，更像二维的二叉查找树）",
+            "327. Count of Range Sum（父节点区间或区域覆盖子节点）"
     };
 }

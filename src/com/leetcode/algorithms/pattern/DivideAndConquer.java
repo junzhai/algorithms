@@ -12,6 +12,7 @@ public @interface DivideAndConquer {
     public String desc() default "分治";
 
     public String[] problems() default {
-            "53. Maximum Subarray"
+            "53. Maximum Subarray",
+            "327. Count of Range Sum"
     };
 }
