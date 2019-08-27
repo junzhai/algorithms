@@ -57,6 +57,7 @@ public @interface DP {
             "53. Maximum Subarray",
             "837. New 21 Game",
             "1105. Filling Bookcase Shelves (动态规划隐含一种穷举)",
-            "813. Largest Sum of Averages"
+            "813. Largest Sum of Averages",
+            "647. Palindromic Substrings"
     };
 }
