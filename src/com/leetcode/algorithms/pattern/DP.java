@@ -58,6 +58,7 @@ public @interface DP {
             "837. New 21 Game",
             "1105. Filling Bookcase Shelves (动态规划隐含一种穷举)",
             "813. Largest Sum of Averages",
-            "647. Palindromic Substrings"
+            "647. Palindromic Substrings",
+            "139. Word Break"
     };
 }
