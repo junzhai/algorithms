@@ -8,10 +8,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface K_Largest_In_Heap {
+public @interface MinMaxHeap {
     String desc() default "Using heap to maintain K largest incoming elements";
 
-    int[] problems() default {
-            215
+    String[] problems() default {
+            "215",
+            "502. IPO"
     };
 }

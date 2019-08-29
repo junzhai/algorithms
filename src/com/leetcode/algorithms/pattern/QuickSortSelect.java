@@ -8,10 +8,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface QuickSelect {
+public @interface QuickSortSelect {
     String desc() default "Derived from quick sort. Pivoting/partition process is the key.";
 
     String[] problems() default {
             "973. K Closest Points to Origin",
+            "502. IPO (Take advantage of pivoting/partition)"
     };
 }

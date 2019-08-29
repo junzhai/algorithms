@@ -1,10 +1,10 @@
 package com.leetcode.algorithms.KClosestPointstoOrigin_973;
 
-import com.leetcode.algorithms.pattern.QuickSelect;
+import com.leetcode.algorithms.pattern.QuickSortSelect;
 
 import java.util.Arrays;
 
-@QuickSelect
+@QuickSortSelect
 public class UseQuickSelect extends Solution {
     @Override
     public int[][] kClosest(int[][] points, int K) {
