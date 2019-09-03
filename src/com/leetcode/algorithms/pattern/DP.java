@@ -60,6 +60,7 @@ public @interface DP {
             "813. Largest Sum of Averages",
             "647. Palindromic Substrings",
             "139. Word Break",
-            "91. Decode Ways"
+            "91. Decode Ways",
+            "763. Partition Labels"
     };
 }
