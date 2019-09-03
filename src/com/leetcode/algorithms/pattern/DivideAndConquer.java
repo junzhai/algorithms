@@ -9,10 +9,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target({TYPE})
 public @interface DivideAndConquer {
-    public String desc() default "分治";
+    public String desc() default "分治，常有划分方法：二分，Quick Sort pivoting, ....";
 
     public String[] problems() default {
             "53. Maximum Subarray",
-            "327. Count of Range Sum"
+            "327. Count of Range Sum",
+            "1044. Longest Duplicate Substring"
     };
 }

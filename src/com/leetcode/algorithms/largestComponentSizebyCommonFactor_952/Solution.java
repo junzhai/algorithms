@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.largestComponentSizebyCommonFactor_952;
 
-import com.leetcode.algorithms.common.ArrayUtil;
+import com.leetcode.algorithms.common.LargeCaseUtil;
 import org.junit.Assert;
 
 public class Solution {
@@ -69,7 +69,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        int[] input = ArrayUtil.readArray("src/com/leetcode/algorithms/largestComponentSizebyCommonFactor_952/case1");
+        int[] input = LargeCaseUtil.readArray("src/com/leetcode/algorithms/largestComponentSizebyCommonFactor_952/case1");
         int ret = s.largestComponentSize(input);
         Assert.assertEquals(4878, ret);
     }

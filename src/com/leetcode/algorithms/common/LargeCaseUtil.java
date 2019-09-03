@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayUtil {
+public class LargeCaseUtil {
     public static int[] readArray(String fileName) {
         List<Integer> list = new ArrayList<>();
         try {
@@ -29,5 +29,16 @@ public class ArrayUtil {
             ret[i] = list.get(i);
         }
         return ret;
+    }
+
+    public static String readString(String fileName) {
+        try {
+            try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+                return reader.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 }

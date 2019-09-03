@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.findK_thSmallestPairDistance_719;
 
-import com.leetcode.algorithms.common.ArrayUtil;
+import com.leetcode.algorithms.common.LargeCaseUtil;
 import org.junit.Assert;
 
 abstract public class Solution {
@@ -22,7 +22,7 @@ abstract public class Solution {
         ret = s.smallestDistancePair(new int[]{38, 33, 57, 65, 13, 2, 86, 75, 4, 56}, 26);
         Assert.assertEquals(36, ret);
 
-        int[] input = ArrayUtil.readArray("src/com/leetcode/algorithms/findK_thSmallestPairDistance_719/case19");
+        int[] input = LargeCaseUtil.readArray("src/com/leetcode/algorithms/findK_thSmallestPairDistance_719/case19");
         long start = System.currentTimeMillis();
         ret = s.smallestDistancePair(input, 25000000);
         System.out.println("Time used: " + (System.currentTimeMillis() - start));
