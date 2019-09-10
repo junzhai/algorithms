@@ -14,6 +14,7 @@ public @interface BinaryIndexedTree {
     String[] problems() default {
             "308. Range Sum Query 2D - Mutable",
             "611. Valid Triangle Number",
-            "327. Count of Range Sum"
+            "327. Count of Range Sum",
+            "1172. Dinner Plate Stacks"
     };
 }
