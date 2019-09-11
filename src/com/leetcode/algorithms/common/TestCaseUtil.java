@@ -1,5 +1,8 @@
 package com.leetcode.algorithms.common;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 public class TestCaseUtil {
@@ -11,5 +14,13 @@ public class TestCaseUtil {
             buf[i] = (char) ('a' + r.nextInt(charCount));
         }
         return String.valueOf(buf);
+    }
+
+    public static List<List<String>> array2List(String[][] input) {
+        List<List<String>> ret = new ArrayList<>();
+        for (String[] i : input) {
+            ret.add(Arrays.asList(i));
+        }
+        return ret;
     }
 }
