@@ -14,6 +14,7 @@ public @interface DivideAndConquer {
     public String[] problems() default {
             "53. Maximum Subarray",
             "327. Count of Range Sum",
-            "1044. Longest Duplicate Substring"
+            "1044. Longest Duplicate Substring",
+            "493. Reverse Pairs"
     };
 }
