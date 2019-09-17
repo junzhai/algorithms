@@ -62,6 +62,7 @@ public @interface DP {
             "139. Word Break",
             "91. Decode Ways",
             "763. Partition Labels",
-            "968. Binary Tree Cameras"
+            "968. Binary Tree Cameras",
+            "864. Shortest Path to Get All Keys"
     };
 }
