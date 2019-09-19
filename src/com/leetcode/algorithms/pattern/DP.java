@@ -63,6 +63,7 @@ public @interface DP {
             "91. Decode Ways",
             "763. Partition Labels",
             "968. Binary Tree Cameras",
-            "864. Shortest Path to Get All Keys"
+            "864. Shortest Path to Get All Keys",
+            "823. Binary Trees With Factors"
     };
 }
