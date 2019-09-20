@@ -17,6 +17,7 @@ public @interface UnSortedArray {
             "42. Trapping Rain Water",
             "218. The Skyline Problem",
             "962. Maximum Width Ramp",
-            "84. Largest Rectangle in Histogram"
+            "84. Largest Rectangle in Histogram",
+            "402. Remove K Digits"
     };
 }
