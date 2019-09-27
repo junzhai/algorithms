@@ -15,6 +15,7 @@ public @interface Trie {
             "982. Triples with Bitwise AND Equal To Zero",
             "745. Prefix and Suffix Search （插入变种字串，'二维Trie树'）",
             "966. Vowel Spellchecker",
-            "1032. Stream of Characters"
+            "1032. Stream of Characters",
+            "164. Maximum Gap（压缩节点）"
     };
 }
