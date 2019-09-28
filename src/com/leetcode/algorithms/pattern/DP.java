@@ -64,6 +64,7 @@ public @interface DP {
             "763. Partition Labels",
             "968. Binary Tree Cameras",
             "864. Shortest Path to Get All Keys",
-            "823. Binary Trees With Factors"
+            "823. Binary Trees With Factors",
+            "1042. Flower Planting With No Adjacent"
     };
 }
