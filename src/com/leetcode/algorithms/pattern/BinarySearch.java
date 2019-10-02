@@ -15,6 +15,7 @@ public @interface BinarySearch {
             "719. Find K-th Smallest Pair Distance",
             "1011. Capacity To Ship Packages Within D Days",
             "1095. Find in Mountain Array (二分之后的动作多种多样)",
-            "367. Valid Perfect Square"
+            "367. Valid Perfect Square",
+            "378. Kth Smallest Element in a Sorted Matrix"
     };
 }
