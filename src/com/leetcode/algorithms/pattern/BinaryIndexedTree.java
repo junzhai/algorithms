@@ -16,6 +16,7 @@ public @interface BinaryIndexedTree {
             "611. Valid Triangle Number",
             "327. Count of Range Sum",
             "1172. Dinner Plate Stacks",
-            "493. Reverse Pairs"
+            "493. Reverse Pairs",
+            "1169. Invalid Transactions"
     };
 }
