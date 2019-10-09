@@ -16,6 +16,7 @@ public @interface UnionFind {
             "924. Minimize Malware Spread",
             "547. Friend Circles",
             "947. Most Stones Removed with Same Row or Column",
-            "695. Max Area of Island"
+            "695. Max Area of Island",
+            "959. Regions Cut By Slashes"
     };
 }
