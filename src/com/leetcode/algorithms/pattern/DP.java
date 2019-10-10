@@ -65,6 +65,7 @@ public @interface DP {
             "968. Binary Tree Cameras",
             "864. Shortest Path to Get All Keys",
             "823. Binary Trees With Factors",
-            "1042. Flower Planting With No Adjacent"
+            "1042. Flower Planting With No Adjacent",
+            "1163. Last Substring in Lexicographical Order"
     };
 }
