@@ -66,6 +66,7 @@ public @interface DP {
             "864. Shortest Path to Get All Keys",
             "823. Binary Trees With Factors",
             "1042. Flower Planting With No Adjacent",
-            "1163. Last Substring in Lexicographical Order"
+            "1163. Last Substring in Lexicographical Order",
+            "174. Dungeon Game"
     };
 }
