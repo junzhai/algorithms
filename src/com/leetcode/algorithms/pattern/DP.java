@@ -67,6 +67,7 @@ public @interface DP {
             "823. Binary Trees With Factors",
             "1042. Flower Planting With No Adjacent",
             "1163. Last Substring in Lexicographical Order",
-            "174. Dungeon Game"
+            "174. Dungeon Game",
+            "526. Beautiful Arrangement"
     };
 }
