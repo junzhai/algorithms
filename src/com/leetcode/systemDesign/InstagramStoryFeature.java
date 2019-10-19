@@ -1,6 +1,6 @@
-package com.leetcode.design;
+package com.leetcode.systemDesign;
 
-public class instagram_story_feature {
+public class InstagramStoryFeature {
     String requirement =
             "This is a design question, not sure if I can post it here. But I would love to have discussion "
                     + "on this as this sounds an interesting design question given the feature that stories "

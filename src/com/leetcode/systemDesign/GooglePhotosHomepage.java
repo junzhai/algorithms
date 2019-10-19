@@ -1,6 +1,6 @@
-package com.leetcode.design;
+package com.leetcode.systemDesign;
 
-public class Google_photos_homepage {
+public class GooglePhotosHomepage {
     String requirement =
             "Design a system like Google photos homepage that can show recent photos of a user along "
                     + "with the shared photos. Interest areas -"
