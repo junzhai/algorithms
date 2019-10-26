@@ -1,9 +1,9 @@
 package com.leetcode.algorithms.specialBinaryString_761;
 
-import com.leetcode.algorithms.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 import org.junit.Assert;
 
-@UnSortedArray
+@UnSortedArrayHistogram
 public class Solution {
     public String makeLargestSpecial(String S) {
         int len = S.length(), l = 1;

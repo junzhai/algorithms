@@ -1,9 +1,9 @@
 package com.leetcode.algorithms.countDifferentPalindromicSubsequences_730;
 
 import com.leetcode.algorithms.pattern.DP;
-import com.leetcode.algorithms.pattern.Histogram;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 
-@Histogram
+@UnSortedArrayHistogram
 @DP
 public class Histogram1 extends Solution {
     @Override

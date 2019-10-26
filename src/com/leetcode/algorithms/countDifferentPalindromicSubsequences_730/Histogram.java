@@ -1,9 +1,10 @@
 package com.leetcode.algorithms.countDifferentPalindromicSubsequences_730;
 
 import com.leetcode.algorithms.pattern.DP;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 
 @DP
-@com.leetcode.algorithms.pattern.Histogram
+@UnSortedArrayHistogram
 /**
  * Barely passed，几乎超时
  */

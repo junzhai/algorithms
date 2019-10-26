@@ -1,11 +1,9 @@
 package com.leetcode.algorithms.largestRectangleinHistogram_84;
 
-import com.leetcode.algorithms.pattern.Histogram;
-import com.leetcode.algorithms.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 import org.junit.Assert;
 
-@Histogram
-@UnSortedArray
+@UnSortedArrayHistogram
 public class Solution {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length, l = 0, ret = 0;

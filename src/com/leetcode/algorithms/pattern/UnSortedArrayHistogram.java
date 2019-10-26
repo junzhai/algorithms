@@ -8,8 +8,9 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface UnSortedArray {
-    String desc() default "顺序处理每一个值。新值驱动一个动作";
+public @interface UnSortedArrayHistogram {
+    String desc() default "顺序处理每一个值。新值驱动一个动作;"
+            + "Scan ordered elements once, dealing with unordered associations.";
 
     String[] problems() default {
             "761 小的新值抹去大的旧值，对抹去的旧值进行不同的处理",
@@ -18,6 +19,11 @@ public @interface UnSortedArray {
             "218. The Skyline Problem",
             "962. Maximum Width Ramp",
             "84. Largest Rectangle in Histogram",
-            "402. Remove K Digits"
+            "402. Remove K Digits",
+            "496. Next Greater Element I",
+            "85",
+            "730. Count Different Palindromic Subsequences",
+            "84. Largest Rectangle in Histogram",
+            "739. Daily Temperatures"
     };
 }

@@ -1,11 +1,11 @@
 package com.leetcode.algorithms.trappingRainWater_42;
 
-import com.leetcode.algorithms.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 import org.junit.Assert;
 
 import java.util.Arrays;
 
-@UnSortedArray
+@UnSortedArrayHistogram
 public class Solution {
     public int trap(int[] height) {
         int len = height.length, l = 0, ret = 0;

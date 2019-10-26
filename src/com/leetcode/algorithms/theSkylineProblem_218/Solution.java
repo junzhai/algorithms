@@ -1,13 +1,13 @@
 package com.leetcode.algorithms.theSkylineProblem_218;
 
-import com.leetcode.algorithms.pattern.UnSortedArray;
+import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-@UnSortedArray
+@UnSortedArrayHistogram
 public class Solution {
     public List<int[]> getSkyline(int[][] buildings) {
         int len = buildings.length;
