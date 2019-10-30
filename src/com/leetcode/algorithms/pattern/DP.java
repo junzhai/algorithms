@@ -69,6 +69,7 @@ public @interface DP {
             "1163. Last Substring in Lexicographical Order",
             "174. Dungeon Game",
             "526. Beautiful Arrangement",
-            "960. Delete Columns to Make Sorted III"
+            "960. Delete Columns to Make Sorted III",
+            "935. Knight Dialer"
     };
 }
