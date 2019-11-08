@@ -70,6 +70,7 @@ public @interface DP {
             "174. Dungeon Game",
             "526. Beautiful Arrangement",
             "960. Delete Columns to Make Sorted III",
-            "935. Knight Dialer"
+            "935. Knight Dialer",
+            "552. Student Attendance Record II"
     };
 }
