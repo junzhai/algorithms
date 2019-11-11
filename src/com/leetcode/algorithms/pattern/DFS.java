@@ -9,7 +9,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target({TYPE})
 public @interface DFS {
-    String desc() default "深度优先搜索";
+    String desc() default "深度优先搜索，并记录结果（动态规划），停机条件可以有变化。";
 
     String[] problems() default {
             "785. Is Graph Bipartite?",
@@ -17,6 +17,7 @@ public @interface DFS {
             "140. Word Break II",
             "695. Max Area of Island",
             "797. All Paths From Source to Target",
-            "968. Binary Tree Cameras"
+            "968. Binary Tree Cameras",
+            "464. Can I Win"
     };
 }
