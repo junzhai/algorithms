@@ -72,6 +72,7 @@ public @interface DP {
             "960. Delete Columns to Make Sorted III",
             "935. Knight Dialer",
             "552. Student Attendance Record II",
-            "464. Can I Win"
+            "464. Can I Win",
+            "1140. Stone Game II"
     };
 }
