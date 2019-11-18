@@ -24,6 +24,7 @@ public @interface UnSortedArrayHistogram {
             "85",
             "730. Count Different Palindromic Subsequences",
             "84. Largest Rectangle in Histogram",
-            "739. Daily Temperatures"
+            "739. Daily Temperatures",
+            "456. 132 Pattern"
     };
 }
