@@ -17,6 +17,7 @@ public @interface BinarySearch {
             "1095. Find in Mountain Array (二分之后的动作多种多样)",
             "367. Valid Perfect Square",
             "378. Kth Smallest Element in a Sorted Matrix",
-            "81. Search in Rotated Sorted Array II"
+            "81. Search in Rotated Sorted Array II",
+            "240. Search a 2D Matrix II"
     };
 }
