@@ -73,6 +73,7 @@ public @interface DP {
             "935. Knight Dialer",
             "552. Student Attendance Record II",
             "464. Can I Win",
-            "1140. Stone Game II"
+            "1140. Stone Game II",
+            "1155. Number of Dice Rolls With Target Sum"
     };
 }
