@@ -74,6 +74,7 @@ public @interface DP {
             "552. Student Attendance Record II",
             "464. Can I Win",
             "1140. Stone Game II",
-            "1155. Number of Dice Rolls With Target Sum"
+            "1155. Number of Dice Rolls With Target Sum",
+            "871. Minimum Number of Refueling Stops"
     };
 }

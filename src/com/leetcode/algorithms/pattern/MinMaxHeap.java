@@ -13,6 +13,7 @@ public @interface MinMaxHeap {
 
     String[] problems() default {
             "215",
-            "502. IPO"
+            "502. IPO",
+            "871. Minimum Number of Refueling Stops"
     };
 }
