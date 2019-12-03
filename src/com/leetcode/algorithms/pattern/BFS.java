@@ -18,6 +18,7 @@ public @interface BFS {
             "1210. Minimum Moves to Reach Target with Rotations（索重入的比较标准有讲究：蛇头位置加方向）",
             "97. Interleaving String",
             "934. Shortest Bridge",
-            "871. Minimum Number of Refueling Stops"
+            "871. Minimum Number of Refueliøng Stops",
+            "1125. Smallest Sufficient Team"
     };
 }
