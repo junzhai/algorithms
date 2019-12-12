@@ -17,6 +17,7 @@ public @interface Trie {
             "966. Vowel Spellchecker",
             "1032. Stream of Characters",
             "164. Maximum Gap（压缩节点）",
-            "792. Number of Matching Subsequences（Trie树构建过程有技巧）"
+            "792. Number of Matching Subsequences（Trie树构建过程有技巧）",
+            "472. Concatenated Words"
     };
 }
