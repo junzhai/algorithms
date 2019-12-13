@@ -76,6 +76,7 @@ public @interface DP {
             "1140. Stone Game II",
             "1155. Number of Dice Rolls With Target Sum",
             "871. Minimum Number of Refueling Stops",
-            "887. Super Egg Drop"
+            "887. Super Egg Drop",
+            "1248. Count Number of Nice Subarrays"
     };
 }
