@@ -13,5 +13,6 @@ public @interface Bitwise {
 
     String[] problems() default {
             "854. K-Similar Strings",
+            "1177. Can Make Palindrome from Substring"
     };
 }
