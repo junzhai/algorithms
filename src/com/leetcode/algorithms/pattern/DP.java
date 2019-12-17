@@ -77,6 +77,7 @@ public @interface DP {
             "1155. Number of Dice Rolls With Target Sum",
             "871. Minimum Number of Refueling Stops",
             "887. Super Egg Drop",
-            "1248. Count Number of Nice Subarrays"
+            "1248. Count Number of Nice Subarrays",
+            "1000. Minimum Cost to Merge Stones"
     };
 }
