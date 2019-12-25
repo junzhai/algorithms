@@ -79,6 +79,7 @@ public @interface DP {
             "887. Super Egg Drop",
             "1248. Count Number of Nice Subarrays",
             "1000. Minimum Cost to Merge Stones",
-            "805. Split Array With Same Average"
+            "805. Split Array With Same Average",
+            "1240. Tiling a Rectangle with the Fewest Squares"
     };
 }
