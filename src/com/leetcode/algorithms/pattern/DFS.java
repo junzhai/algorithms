@@ -18,6 +18,7 @@ public @interface DFS {
             "695. Max Area of Island",
             "797. All Paths From Source to Target",
             "968. Binary Tree Cameras",
-            "464. Can I Win"
+            "464. Can I Win",
+            "1192. Critical Connections in a Network（环，可用边或顶点作为停机条件）"
     };
 }

@@ -23,4 +23,12 @@ public class TestCaseUtil {
         }
         return ret;
     }
+
+    public static <T> List<List<T>> array2List(T[][] input) {
+        List<List<T>> ret = new ArrayList<>();
+        for (T[] i : input) {
+            ret.add(Arrays.asList(i));
+        }
+        return ret;
+    }
 }
