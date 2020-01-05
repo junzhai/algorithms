@@ -80,6 +80,7 @@ public @interface DP {
             "1248. Count Number of Nice Subarrays",
             "1000. Minimum Cost to Merge Stones",
             "805. Split Array With Same Average",
-            "1240. Tiling a Rectangle with the Fewest Squares"
+            "1240. Tiling a Rectangle with the Fewest Squares",
+            "741. Cherry Pickup"
     };
 }
