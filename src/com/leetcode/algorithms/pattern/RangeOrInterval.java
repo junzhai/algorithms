@@ -8,10 +8,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface RangeCount {
-    String desc() default "Range/interval start/end point count";
+public @interface RangeOrInterval {
+    String desc() default "Range/interval start/end point count, accumulate max range/interval ends...";
 
     String[] problems() default {
-            "798. Smallest Rotation with Highest Score"
+            "798. Smallest Rotation with Highest Score",
+            "1288. Remove Covered Intervals (accumulate max range end)"
     };
 }

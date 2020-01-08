@@ -1,10 +1,10 @@
 package com.leetcode.algorithms.smallestRotationwithHighestScore_798;
 
-import com.leetcode.algorithms.pattern.RangeCount;
+import com.leetcode.algorithms.pattern.RangeOrInterval;
 
 import java.util.Arrays;
 
-@RangeCount
+@RangeOrInterval
 /**
  * NlogN
  */
