@@ -18,6 +18,7 @@ public @interface BinarySearch {
             "367. Valid Perfect Square",
             "378. Kth Smallest Element in a Sorted Matrix",
             "81. Search in Rotated Sorted Array II",
-            "240. Search a 2D Matrix II"
+            "240. Search a 2D Matrix II",
+            "875. Koko Eating Bananas"
     };
 }
