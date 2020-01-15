@@ -81,6 +81,7 @@ public @interface DP {
             "1000. Minimum Cost to Merge Stones",
             "805. Split Array With Same Average",
             "1240. Tiling a Rectangle with the Fewest Squares",
-            "741. Cherry Pickup"
+            "741. Cherry Pickup",
+            "152. Maximum Product Subarray"
     };
 }
