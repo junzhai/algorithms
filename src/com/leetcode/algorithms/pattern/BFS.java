@@ -19,6 +19,7 @@ public @interface BFS {
             "97. Interleaving String",
             "934. Shortest Bridge",
             "871. Minimum Number of Refueliøng Stops",
-            "1125. Smallest Sufficient Team"
+            "1125. Smallest Sufficient Team",
+            "1091. Shortest Path in Binary Matrix"
     };
 }
