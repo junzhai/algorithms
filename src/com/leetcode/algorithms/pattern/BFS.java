@@ -20,6 +20,7 @@ public @interface BFS {
             "934. Shortest Bridge",
             "871. Minimum Number of Refueliøng Stops",
             "1125. Smallest Sufficient Team",
-            "1091. Shortest Path in Binary Matrix"
+            "1091. Shortest Path in Binary Matrix",
+            "433. Minimum Genetic Mutation"
     };
 }
