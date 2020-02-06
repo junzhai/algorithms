@@ -21,6 +21,7 @@ public @interface BFS {
             "871. Minimum Number of Refueliøng Stops",
             "1125. Smallest Sufficient Team",
             "1091. Shortest Path in Binary Matrix",
-            "433. Minimum Genetic Mutation"
+            "433. Minimum Genetic Mutation",
+            "576. Out of Boundary Paths"
     };
 }
