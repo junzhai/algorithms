@@ -20,6 +20,7 @@ public @interface BinarySearch {
             "81. Search in Rotated Sorted Array II",
             "240. Search a 2D Matrix II",
             "875. Koko Eating Bananas",
-            "441. Arranging Coinso"
+            "441. Arranging Coinso",
+            "483. Smallest Good Base"
     };
 }
