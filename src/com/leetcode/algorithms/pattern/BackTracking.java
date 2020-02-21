@@ -16,6 +16,7 @@ public @interface BackTracking {
             "474. Ones and Zeroes",
             "753. Cracking the Safe",
             "864. Shortest Path to Get All Keys",
-            "488. Zuma Game"
+            "488. Zuma Game",
+            "306. Additive Number"
     };
 }
