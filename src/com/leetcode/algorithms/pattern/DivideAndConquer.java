@@ -16,6 +16,7 @@ public @interface DivideAndConquer {
             "327. Count of Range Sum",
             "1044. Longest Duplicate Substring",
             "493. Reverse Pairs",
-            "152. Maximum Product Subarray"
+            "152. Maximum Product Subarray",
+            "395. Longest Substring with At Least K Repeating Characters"
     };
 }
