@@ -18,6 +18,7 @@ public @interface UnionFind {
             "947. Most Stones Removed with Same Row or Column",
             "695. Max Area of Island",
             "959. Regions Cut By Slashes",
-            "1202. Smallest String With Swaps"
+            "1202. Smallest String With Swaps",
+            "886. Possible Bipartition"
     };
 }
