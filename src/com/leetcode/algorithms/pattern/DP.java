@@ -84,6 +84,7 @@ public @interface DP {
             "741. Cherry Pickup",
             "152. Maximum Product Subarray",
             "1079. Letter Tile Possibilities",
-            "279. Perfect Squares"
+            "279. Perfect Squares",
+            "1235. Maximum Profit in Job Scheduling"
     };
 }
