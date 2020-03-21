@@ -85,6 +85,7 @@ public @interface DP {
             "152. Maximum Product Subarray",
             "1079. Letter Tile Possibilities",
             "279. Perfect Squares",
-            "1235. Maximum Profit in Job Scheduling"
+            "1235. Maximum Profit in Job Scheduling",
+            "1004. Max Consecutive Ones III"
     };
 }
