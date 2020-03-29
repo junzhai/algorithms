@@ -21,6 +21,7 @@ public @interface BinarySearch {
             "240. Search a 2D Matrix II",
             "875. Koko Eating Bananas",
             "441. Arranging Coinso",
-            "483. Smallest Good Base"
+            "483. Smallest Good Base",
+            "668. Kth Smallest Number in Multiplication Table"
     };
 }
