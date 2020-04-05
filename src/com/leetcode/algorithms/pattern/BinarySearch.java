@@ -22,6 +22,7 @@ public @interface BinarySearch {
             "875. Koko Eating Bananas",
             "441. Arranging Coinso",
             "483. Smallest Good Base",
-            "668. Kth Smallest Number in Multiplication Table"
+            "668. Kth Smallest Number in Multiplication Table",
+            "1201. Ugly Number III"
     };
 }
