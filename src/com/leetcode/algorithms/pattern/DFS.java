@@ -20,6 +20,7 @@ public @interface DFS {
             "968. Binary Tree Cameras",
             "464. Can I Win",
             "1192. Critical Connections in a Network（环，可用边或顶点作为停机条件）",
-            "741. Cherry Pickup（状态设定有技巧）"
+            "741. Cherry Pickup（状态设定有技巧）",
+            "79. Word Search"
     };
 }

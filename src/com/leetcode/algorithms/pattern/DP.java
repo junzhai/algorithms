@@ -87,6 +87,7 @@ public @interface DP {
             "279. Perfect Squares",
             "1235. Maximum Profit in Job Scheduling",
             "1004. Max Consecutive Ones III",
-            "1314. Matrix Block Sum"
+            "1314. Matrix Block Sum",
+            "678. Valid Parenthesis String"
     };
 }
