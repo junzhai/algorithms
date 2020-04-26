@@ -88,6 +88,7 @@ public @interface DP {
             "1235. Maximum Profit in Job Scheduling",
             "1004. Max Consecutive Ones III",
             "1314. Matrix Block Sum",
-            "678. Valid Parenthesis String"
+            "678. Valid Parenthesis String",
+            "kick start 2020 round A: Plates"
     };
 }
