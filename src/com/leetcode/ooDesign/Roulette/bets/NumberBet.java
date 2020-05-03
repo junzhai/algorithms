@@ -1,6 +1,5 @@
 package com.leetcode.ooDesign.Roulette.bets;
 
-import com.google.common.eventbus.Subscribe;
 import com.leetcode.ooDesign.Roulette.User;
 import com.leetcode.ooDesign.Roulette.events.NumberEvent;
 
