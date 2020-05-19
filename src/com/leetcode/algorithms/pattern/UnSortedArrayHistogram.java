@@ -26,6 +26,7 @@ public @interface UnSortedArrayHistogram {
             "84. Largest Rectangle in Histogram",
             "739. Daily Temperatures",
             "456. 132 Pattern",
-            "1081. Smallest Subsequence of Distinct Characters"
+            "1081. Smallest Subsequence of Distinct Characters",
+            "901. Online Stock Span"
     };
 }
