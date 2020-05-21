@@ -90,6 +90,7 @@ public @interface DP {
             "1314. Matrix Block Sum",
             "678. Valid Parenthesis String",
             "kick start 2020 round A: Plates",
-            "918. Maximum Sum Circular Subarray"
+            "918. Maximum Sum Circular Subarray",
+            "1277. Count Square Submatrices with All Ones"
     };
 }
