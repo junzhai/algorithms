@@ -1,5 +1,6 @@
 package com.leetcode.ooDesign.Roulette;
 
+import com.google.common.eventbus.EventBus;
 import com.leetcode.ooDesign.Roulette.events.ColorEvent;
 import com.leetcode.ooDesign.Roulette.events.NumberEvent;
 import com.leetcode.ooDesign.Roulette.events.OddEvenEvent;

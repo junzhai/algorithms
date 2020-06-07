@@ -17,6 +17,7 @@ public @interface Find_Specific_Strategy {
             "630. Course Schedule III",
             "753. Cracking the Safe",
             "1338. Reduce Array Size to The Half",
-            "767. Reorganize String"
+            "767. Reorganize String",
+            "406. Queue Reconstruction by Height"
     };
 }
