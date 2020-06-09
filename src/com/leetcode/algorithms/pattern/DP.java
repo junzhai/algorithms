@@ -91,6 +91,7 @@ public @interface DP {
             "678. Valid Parenthesis String",
             "kick start 2020 round A: Plates",
             "918. Maximum Sum Circular Subarray",
-            "1277. Count Square Submatrices with All Ones"
+            "1277. Count Square Submatrices with All Ones",
+            "518. Coin Change 2"
     };
 }
