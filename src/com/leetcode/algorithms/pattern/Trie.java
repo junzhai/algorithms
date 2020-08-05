@@ -18,6 +18,7 @@ public @interface Trie {
             "1032. Stream of Characters",
             "164. Maximum Gap（压缩节点）",
             "792. Number of Matching Subsequences（Trie树构建过程有技巧）",
-            "472. Concatenated Words"
+            "472. Concatenated Words",
+            "211. Add and Search Word - Data structure design"
     };
 }
