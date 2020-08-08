@@ -17,6 +17,7 @@ public @interface DivideAndConquer {
             "1044. Longest Duplicate Substring",
             "493. Reverse Pairs",
             "152. Maximum Product Subarray",
-            "395. Longest Substring with At Least K Repeating Characters"
+            "395. Longest Substring with At Least K Repeating Characters",
+            "442. Find All Duplicates in an Array（非最优解法）"
     };
 }
