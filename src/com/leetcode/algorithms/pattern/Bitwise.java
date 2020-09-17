@@ -14,6 +14,7 @@ public @interface Bitwise {
     String[] problems() default {
             "854. K-Similar Strings",
             "1177. Can Make Palindrome from Substring",
-            "433. Minimum Genetic Mutation"
+            "433. Minimum Genetic Mutation",
+            "421. Maximum XOR of Two Numbers in an Array"
     };
 }

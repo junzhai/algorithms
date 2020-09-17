@@ -19,6 +19,7 @@ public @interface Trie {
             "164. Maximum Gap（压缩节点）",
             "792. Number of Matching Subsequences（Trie树构建过程有技巧）",
             "472. Concatenated Words",
-            "211. Add and Search Word - Data structure design"
+            "211. Add and Search Word - Data structure design",
+            "421. Maximum XOR of Two Numbers in an Array"
     };
 }
