@@ -1,11 +1,11 @@
 package com.leetcode.algorithms.minimumNumberOfRefuelingStops_871;
 
-import com.leetcode.algorithms.pattern.MinMaxHeap;
+import com.leetcode.algorithms.pattern.Heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-@MinMaxHeap
+@Heap
 public class Scan extends Solution {
     @Override
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
