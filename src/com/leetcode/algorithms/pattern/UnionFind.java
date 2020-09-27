@@ -19,6 +19,7 @@ public @interface UnionFind {
             "695. Max Area of Island",
             "959. Regions Cut By Slashes",
             "1202. Smallest String With Swaps",
-            "886. Possible Bipartition"
+            "886. Possible Bipartition",
+            "399. Evaluate Division"
     };
 }
