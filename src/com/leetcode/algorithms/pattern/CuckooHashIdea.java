@@ -12,6 +12,7 @@ public @interface CuckooHashIdea {
     public String desc() default "用类似Cuckoo Hash的思想，一个元素挤出下一个元素。";
 
     public String[] problems() default {
-            "442. Find All Duplicates in an Array"
+            "442. Find All Duplicates in an Array",
+            "41. First Missing Positive"
     };
 }
