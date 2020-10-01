@@ -17,6 +17,7 @@ public @interface BinaryIndexedTree {
             "327. Count of Range Sum",
             "1172. Dinner Plate Stacks",
             "493. Reverse Pairs",
-            "1169. Invalid Transactions"
+            "1169. Invalid Transactions",
+            "933. Number of Recent Calls"
     };
 }

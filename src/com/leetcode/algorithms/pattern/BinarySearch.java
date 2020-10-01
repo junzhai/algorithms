@@ -23,6 +23,7 @@ public @interface BinarySearch {
             "441. Arranging Coinso",
             "483. Smallest Good Base",
             "668. Kth Smallest Number in Multiplication Table",
-            "1201. Ugly Number III"
+            "1201. Ugly Number III",
+            "933. Number of Recent Calls"
     };
 }
