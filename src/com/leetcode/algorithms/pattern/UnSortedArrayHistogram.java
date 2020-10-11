@@ -27,6 +27,7 @@ public @interface UnSortedArrayHistogram {
             "739. Daily Temperatures",
             "456. 132 Pattern",
             "1081. Smallest Subsequence of Distinct Characters",
-            "901. Online Stock Span"
+            "901. Online Stock Span",
+            "452. Minimum Number of Arrows to Burst Balloons"
     };
 }
