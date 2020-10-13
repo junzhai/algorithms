@@ -14,6 +14,7 @@ public @interface MergeSort {
     String[] problems() default {
             "315. Count of Smaller Numbers After Self",
             "327. Count of Range Sum（利用归并过程做一些事情）",
-            "493. Reverse Pairs"
+            "493. Reverse Pairs",
+            "148. Sort List"
     };
 }
