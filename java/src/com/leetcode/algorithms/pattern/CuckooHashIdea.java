@@ -13,6 +13,7 @@ public @interface CuckooHashIdea {
 
     public String[] problems() default {
             "442. Find All Duplicates in an Array",
-            "41. First Missing Positive"
+            "41. First Missing Positive",
+            "189. Rotate Array"
     };
 }
