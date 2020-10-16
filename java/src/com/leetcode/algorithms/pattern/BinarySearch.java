@@ -24,6 +24,7 @@ public @interface BinarySearch {
             "483. Smallest Good Base",
             "668. Kth Smallest Number in Multiplication Table",
             "1201. Ugly Number III",
-            "933. Number of Recent Calls"
+            "933. Number of Recent Calls",
+            "74. Search a 2D Matrix"
     };
 }
