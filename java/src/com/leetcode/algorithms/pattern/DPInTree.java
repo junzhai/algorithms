@@ -13,5 +13,6 @@ public @interface DPInTree {
 
     String[] problems() default {
             "742. Closest Leaf in a Binary Tree",
+            "337. House Robber III"
     };
 }
