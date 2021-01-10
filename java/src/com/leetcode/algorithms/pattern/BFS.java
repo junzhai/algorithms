@@ -23,6 +23,7 @@ public @interface BFS {
             "1091. Shortest Path in Binary Matrix",
             "433. Minimum Genetic Mutation",
             "576. Out of Boundary Paths",
-            "787. Cheapest Flights Within K Stops"
+            "787. Cheapest Flights Within K Stops",
+            "127. Word Ladder"
     };
 }
