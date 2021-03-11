@@ -96,6 +96,7 @@ public @interface DP {
             "140. Word Break II （两种方法，recursive/iterative, recursive不需历遍所有状态，可能会比iterative方法快）",
             "713. Subarray Product Less Than K",
             "213. House Robber II",
-            "131. Palindrome Partitioning"
+            "131. Palindrome Partitioning",
+            "322. Coin Change"
     };
 }
