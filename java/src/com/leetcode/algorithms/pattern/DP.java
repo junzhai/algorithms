@@ -98,6 +98,7 @@ public @interface DP {
             "213. House Robber II",
             "131. Palindrome Partitioning",
             "322. Coin Change",
-            "714. Best Time to Buy and Sell Stock with Transaction Fee"
+            "714. Best Time to Buy and Sell Stock with Transaction Fee",
+            "474. Ones and Zeroes"
     };
 }
