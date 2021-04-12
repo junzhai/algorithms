@@ -18,6 +18,7 @@ public @interface Find_Specific_Strategy {
             "753. Cracking the Safe",
             "1338. Reduce Array Size to The Half",
             "767. Reorganize String",
-            "406. Queue Reconstruction by Height"
+            "406. Queue Reconstruction by Height",
+            "667. Beautiful Arrangement II"
     };
 }
