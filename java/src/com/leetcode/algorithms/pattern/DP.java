@@ -99,6 +99,7 @@ public @interface DP {
             "131. Palindrome Partitioning",
             "322. Coin Change",
             "714. Best Time to Buy and Sell Stock with Transaction Fee",
-            "474. Ones and Zeroes"
+            "474. Ones and Zeroes",
+            "377. Combination Sum IV"
     };
 }
