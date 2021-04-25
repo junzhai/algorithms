@@ -72,6 +72,7 @@ swks,xnas
 msft,xnas
 etn,xnys
 hon,xnys
+key,xnys
 fe,xnys
 eqr,xnys
 cma,xnys
@@ -123,12 +124,14 @@ wba,xnas
 azo,xnys
 dpz,xnys
 pnw,xnys
+fitb,xnas
 cl,xnys
 bdx,xnys
 cost,xnas
 hbi,xnys
 exc,xnas
 cboe,bats
+dow,xnys
 kr,xnys
 cat,xnys
 pg,xnys
@@ -177,6 +180,7 @@ biib,xnas
 pxd,xnys
 aapl,xnas
 amzn,xnas
+shw,xnys
 regn,xnas
 de,xnys
 spgi,xnys
