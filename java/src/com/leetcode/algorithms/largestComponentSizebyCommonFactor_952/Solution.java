@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.largestComponentSizebyCommonFactor_952;
 
-import com.leetcode.algorithms.common.LargeCaseUtil;
+import com.leetcode.util.LargeCaseUtil;
 import org.junit.Assert;
 
 public class Solution {

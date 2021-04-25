@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.longestDuplicateSubstring_1044;
 
-import com.leetcode.algorithms.common.LargeCaseUtil;
+import com.leetcode.util.LargeCaseUtil;
 import org.junit.Assert;
 
 abstract public class Solution {

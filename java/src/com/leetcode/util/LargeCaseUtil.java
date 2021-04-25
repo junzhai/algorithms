@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.common;
+package com.leetcode.util;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
