@@ -259,6 +259,7 @@ es,xnys
 klac,xnas
 vno,xnys
 aon,xnys
+zion,xnas
 isrg,xnas
 etr,xnys
 aptv,xnys
@@ -335,6 +336,7 @@ trow,xnas
 wst,xnys
 payx,xnas
 vtr,xnys
+mo,xnys
 eqix,xnas
 itw,xnys
 low,xnys
