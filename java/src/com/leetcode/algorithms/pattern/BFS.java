@@ -24,6 +24,7 @@ public @interface BFS {
             "433. Minimum Genetic Mutation",
             "576. Out of Boundary Paths",
             "787. Cheapest Flights Within K Stops",
-            "127. Word Ladder"
+            "127. Word Ladder",
+            "45. Jump Game II"
     };
 }
