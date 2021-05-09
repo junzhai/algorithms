@@ -3,6 +3,7 @@ abnb,xnas
 bidu,xnas
 tcehy,pinx
 vwagy,pinx
+ddaif,pinx
 bmwyy,pinx
 race,xnys
 nsany,pinx
@@ -11,15 +12,18 @@ baba,xnys
 jd,xnas
 pii,xnys
 hog,xnys
+lvmuy,pinx
 addyy,pinx
 bud,xnys
 deo,xnys
 abev,xnys
 nsrgy,pinx
+danoy,pinx
 bg,xnys
 ingr,xnys
 ul,xnys
 rbgly,pinx
+bti,xnys
 rds.b,xnys
 tot,xnys
 bp,xnys
@@ -34,6 +38,7 @@ ry,xnys
 td,xnys
 wbk,xnys
 fds,xnys
+mfc,xnys
 murgy,pinx
 nvo,xnys
 fms,xnys
@@ -58,9 +63,11 @@ tru,xnys
 cni,xnys
 cp,xnys
 nok,xnys
+sony,xnys
 asml,xnas
 tsm,xnys
 fslr,xnas
+sap,xnys
 uber,xnys
 wday,xnas
 dasty,pinx
@@ -72,6 +79,7 @@ pltr,xnys
 dbx,xnas
 basfy,pinx
 ntr,xnys
+crh,xnys
 gold,xnys
 rio,xnys
 vale,xnys
@@ -81,4 +89,5 @@ cmp,xnys
 csgp,xnas
 wpc,xnys
 cone,xnas
+open,xnas
 pcg,xnys
