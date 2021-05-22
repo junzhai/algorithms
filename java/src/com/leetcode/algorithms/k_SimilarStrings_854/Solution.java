@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.k_SimilarStrings_854;
 
-import com.leetcode.algorithms.pattern.Bitwise;
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.Bitwise;
+import com.pattern.algorithms.DP;
 import org.junit.Assert;
 
 import java.util.Arrays;

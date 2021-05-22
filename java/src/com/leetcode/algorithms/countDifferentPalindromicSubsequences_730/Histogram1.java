@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.countDifferentPalindromicSubsequences_730;
 
-import com.leetcode.algorithms.pattern.DP;
-import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
+import com.pattern.algorithms.DP;
+import com.pattern.algorithms.UnSortedArrayHistogram;
 
 @UnSortedArrayHistogram
 @DP

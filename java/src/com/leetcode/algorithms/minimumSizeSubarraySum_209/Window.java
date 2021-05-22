@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumSizeSubarraySum_209;
 
-import com.leetcode.algorithms.pattern.SlidingWindow;
+import com.pattern.algorithms.SlidingWindow;
 
 @SlidingWindow
 public class Window extends Solution {

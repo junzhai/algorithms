@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.xxx_raceCar_818;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 /**

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumASCIIDeleteSumforTwoStrings_712;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 

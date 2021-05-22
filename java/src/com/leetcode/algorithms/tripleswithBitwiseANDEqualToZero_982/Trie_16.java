@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.tripleswithBitwiseANDEqualToZero_982;
 
-import com.leetcode.algorithms.pattern.Trie;
+import com.pattern.algorithms.Trie;
 
 @Trie
 public class Trie_16 extends Solution {

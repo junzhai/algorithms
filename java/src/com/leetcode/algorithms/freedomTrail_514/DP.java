@@ -2,7 +2,7 @@ package com.leetcode.algorithms.freedomTrail_514;
 
 import java.util.Arrays;
 
-@com.leetcode.algorithms.pattern.DP
+@com.pattern.algorithms.DP
 public class DP extends Solution {
     @Override
     public int findRotateSteps(String ring, String key) {

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.soupServings_808;
 
-import com.leetcode.algorithms.pattern.BFS;
+import com.pattern.algorithms.BFS;
 
 import java.util.HashMap;
 import java.util.LinkedList;

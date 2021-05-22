@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumNumberOfRefuelingStops_871;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 public class UsingDP1 extends Solution {

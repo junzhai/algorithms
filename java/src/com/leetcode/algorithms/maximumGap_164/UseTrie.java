@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.maximumGap_164;
 
-import com.leetcode.algorithms.pattern.Trie;
+import com.pattern.algorithms.Trie;
 
 @Trie
 public class UseTrie extends Solution {

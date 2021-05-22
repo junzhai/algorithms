@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.studentAttendanceRecordII_552;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 public class UseDP extends Solution {

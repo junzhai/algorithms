@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.guessNumberHigherorLowerII_375;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import static org.junit.Assert.assertEquals;
 

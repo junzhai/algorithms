@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.smallestRotationwithHighestScore_798;
 
-import com.leetcode.algorithms.pattern.RangeOrInterval;
+import com.pattern.algorithms.RangeOrInterval;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.validPermutationsForDISequence_903;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 // 限制发散。

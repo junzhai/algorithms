@@ -1,9 +1,8 @@
 package com.leetcode.algorithms.lengthofLongestFibonacciSubsequence_873;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.pattern.algorithms.DP;
 
-@com.leetcode.algorithms.pattern.DP
+@DP
 public class DP_2Sum extends Solution {
     @Override
     public int lenLongestFibSubseq(int[] A) {

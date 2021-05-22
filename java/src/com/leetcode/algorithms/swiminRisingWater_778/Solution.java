@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.swiminRisingWater_778;
 
-import com.leetcode.algorithms.pattern.VFS;
+import com.pattern.algorithms.VFS;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

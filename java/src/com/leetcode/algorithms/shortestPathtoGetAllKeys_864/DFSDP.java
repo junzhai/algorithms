@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.shortestPathtoGetAllKeys_864;
 
-import com.leetcode.algorithms.pattern.DFS;
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DFS;
+import com.pattern.algorithms.DP;
 
 @DFS
 @DP

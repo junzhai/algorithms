@@ -2,6 +2,7 @@ vod,xnas
 abnb,xnas
 bidu,xnas
 tcehy,pinx
+mga,xnys
 vwagy,pinx
 ddaif,pinx
 bmwyy,pinx

@@ -1,10 +1,6 @@
 package com.leetcode.algorithms.soupServings_808;
 
-import com.leetcode.algorithms.pattern.DP;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import com.pattern.algorithms.DP;
 
 @DP
 public class UseDP extends Solution {

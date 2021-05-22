@@ -2,7 +2,7 @@ package com.leetcode.algorithms.findModeinBinarySearchTree_501;
 
 import com.leetcode.algorithms.common.TreeNode;
 
-@com.leetcode.algorithms.pattern.MorrisTraversal
+@com.pattern.algorithms.MorrisTraversal
 public class MorrisTraversal extends Solution {
     private int curVal = 0, curFrequent = 0, maxFrequent = 0, maxCount = 0;
 

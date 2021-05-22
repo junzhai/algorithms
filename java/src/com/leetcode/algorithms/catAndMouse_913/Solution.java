@@ -2,7 +2,7 @@ package com.leetcode.algorithms.catAndMouse_913;
 
 import org.junit.Assert;
 
-@com.leetcode.algorithms.pattern.DP
+@com.pattern.algorithms.DP
 abstract public class Solution {
     abstract public int catMouseGame(int[][] graph);
 

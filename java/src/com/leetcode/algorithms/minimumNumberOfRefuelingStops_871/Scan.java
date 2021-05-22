@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumNumberOfRefuelingStops_871;
 
-import com.leetcode.algorithms.pattern.Heap;
+import com.pattern.algorithms.Heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

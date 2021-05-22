@@ -1,8 +1,8 @@
 package com.leetcode.algorithms.longestDuplicateSubstring_1044;
 
-import com.leetcode.algorithms.pattern.BinarySearchTree;
-import com.leetcode.algorithms.pattern.DivideAndConquer;
-import com.leetcode.algorithms.pattern.QuickSortSelect;
+import com.pattern.algorithms.BinarySearchTree;
+import com.pattern.algorithms.DivideAndConquer;
+import com.pattern.algorithms.QuickSortSelect;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.KClosestPointstoOrigin_973;
 
-import com.leetcode.algorithms.pattern.QuickSortSelect;
+import com.pattern.algorithms.QuickSortSelect;
 
 import java.util.Arrays;
 

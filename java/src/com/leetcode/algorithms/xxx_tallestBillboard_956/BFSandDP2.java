@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.xxx_tallestBillboard_956;
 
-import com.leetcode.algorithms.pattern.BFS;
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.BFS;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 

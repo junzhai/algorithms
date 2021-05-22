@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.wildcardMatching_44;
 
-import com.leetcode.algorithms.pattern.KMP;
+import com.pattern.algorithms.KMP;
 
 @KMP
 public class UpdatedKMP extends Solution {

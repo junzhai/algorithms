@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.specialBinaryString_761;
 
-import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
+import com.pattern.algorithms.UnSortedArrayHistogram;
 import org.junit.Assert;
 
 @UnSortedArrayHistogram

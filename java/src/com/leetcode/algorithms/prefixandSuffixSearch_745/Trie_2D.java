@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.prefixandSuffixSearch_745;
 
-import com.leetcode.algorithms.pattern.Trie;
+import com.pattern.algorithms.Trie;
 
 @Trie
 class Trie_2D extends WordFilter {

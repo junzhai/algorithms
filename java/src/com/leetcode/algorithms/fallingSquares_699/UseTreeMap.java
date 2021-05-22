@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.fallingSquares_699;
 
-import com.leetcode.algorithms.pattern.BinarySearchTree;
+import com.pattern.algorithms.BinarySearchTree;
 
 import java.util.ArrayList;
 import java.util.List;

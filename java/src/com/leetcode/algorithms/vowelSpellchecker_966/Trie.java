@@ -3,7 +3,7 @@ package com.leetcode.algorithms.vowelSpellchecker_966;
 import java.util.HashSet;
 import java.util.Set;
 
-@com.leetcode.algorithms.pattern.Trie
+@com.pattern.algorithms.Trie
 public class Trie extends Solution {
     private static class TrieNode {
         TrieNode[] children = new TrieNode[27];

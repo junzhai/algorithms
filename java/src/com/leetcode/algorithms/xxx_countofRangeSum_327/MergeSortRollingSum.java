@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.xxx_countofRangeSum_327;
 
-import com.leetcode.algorithms.pattern.DivideAndConquer;
-import com.leetcode.algorithms.pattern.MergeSort;
+import com.pattern.algorithms.DivideAndConquer;
+import com.pattern.algorithms.MergeSort;
 
 @MergeSort
 @DivideAndConquer

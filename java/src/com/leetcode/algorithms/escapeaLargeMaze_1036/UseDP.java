@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.escapeaLargeMaze_1036;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 import java.util.Comparator;

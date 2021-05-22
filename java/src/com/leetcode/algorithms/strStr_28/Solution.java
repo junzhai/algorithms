@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.strStr_28;
 
-import com.leetcode.algorithms.pattern.KMP;
+import com.pattern.algorithms.KMP;
 import org.junit.Assert;
 
 @KMP

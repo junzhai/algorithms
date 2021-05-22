@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.findK_thSmallestPairDistance_719;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 import java.util.Comparator;

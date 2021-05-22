@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.xxx_countofRangeSum_327;
 
-import com.leetcode.algorithms.pattern.SegmentOrAreaOrKDTree;
+import com.pattern.algorithms.SegmentOrAreaOrKDTree;
 
 import java.util.Arrays;
 

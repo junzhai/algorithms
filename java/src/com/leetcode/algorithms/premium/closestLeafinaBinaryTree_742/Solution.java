@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.premium.closestLeafinaBinaryTree_742;
 
 import com.leetcode.algorithms.common.TreeNode;
-import com.leetcode.algorithms.pattern.DPInTree;
+import com.pattern.algorithms.DPInTree;
 import org.junit.Assert;
 
 @DPInTree

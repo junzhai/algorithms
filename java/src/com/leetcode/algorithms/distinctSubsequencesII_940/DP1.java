@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.distinctSubsequencesII_940;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 public class DP1 extends Solution {

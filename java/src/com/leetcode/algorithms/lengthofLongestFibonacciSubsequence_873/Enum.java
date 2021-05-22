@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.lengthofLongestFibonacciSubsequence_873;
 
-import com.leetcode.algorithms.pattern.Enumeration;
+import com.pattern.algorithms.Enumeration;
 
 import java.util.HashSet;
 import java.util.Set;

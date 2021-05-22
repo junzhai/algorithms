@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.FourSum_18;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.ArrayList;
 import java.util.Arrays;

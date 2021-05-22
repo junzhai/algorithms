@@ -1,7 +1,7 @@
 package com.leetcode.algorithms.shortestPathtoGetAllKeys_864;
 
-import com.leetcode.algorithms.pattern.BackTracking;
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.BackTracking;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 import java.util.HashMap;

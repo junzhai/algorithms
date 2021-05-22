@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.burstBalloons_312;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 import org.junit.Assert;
 
 @DP

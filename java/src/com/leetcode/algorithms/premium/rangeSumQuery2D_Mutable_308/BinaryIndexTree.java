@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.premium.rangeSumQuery2D_Mutable_308;
 
-import com.leetcode.algorithms.pattern.BinaryIndexedTree;
+import com.pattern.algorithms.BinaryIndexedTree;
 
 @BinaryIndexedTree
 public class BinaryIndexTree extends NumMatrix {

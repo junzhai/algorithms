@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.xxx_countofRangeSum_327;
 
-import com.leetcode.algorithms.pattern.BinarySearchTree;
+import com.pattern.algorithms.BinarySearchTree;
 
 @BinarySearchTree
 public class LowerBoundinBST extends Solution {

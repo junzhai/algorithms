@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.findtheShortestSuperstring_943;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 import org.junit.Assert;
 
 import java.util.HashMap;

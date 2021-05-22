@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.slidingPuzzle_773;
 
-import com.leetcode.algorithms.pattern.BFS;
+import com.pattern.algorithms.BFS;
 import org.junit.Assert;
 
 @BFS

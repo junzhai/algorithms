@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.soupServings_808;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.HashMap;
 import java.util.Iterator;

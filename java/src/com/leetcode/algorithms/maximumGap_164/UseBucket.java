@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.maximumGap_164;
 
-import com.leetcode.algorithms.pattern.RadixSort;
+import com.pattern.algorithms.RadixSort;
 
 @RadixSort
 public class UseBucket extends Solution {

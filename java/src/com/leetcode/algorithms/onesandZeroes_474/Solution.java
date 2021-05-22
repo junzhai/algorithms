@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.onesandZeroes_474;
 
-import com.leetcode.algorithms.pattern.BackTracking;
+import com.pattern.algorithms.BackTracking;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.validTriangleNumber_611;
 
-import com.leetcode.algorithms.pattern.BinaryIndexedTree;
+import com.pattern.algorithms.BinaryIndexedTree;
 
 import java.util.Arrays;
 

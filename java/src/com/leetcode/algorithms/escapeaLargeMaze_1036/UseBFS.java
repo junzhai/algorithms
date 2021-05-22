@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.escapeaLargeMaze_1036;
 
-import com.leetcode.algorithms.pattern.BFS;
+import com.pattern.algorithms.BFS;
 
 import java.util.HashSet;
 import java.util.LinkedList;

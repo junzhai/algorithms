@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.countofSmallerNumbersAfterSelf_315;
 
-import com.leetcode.algorithms.pattern.MergeSort;
+import com.pattern.algorithms.MergeSort;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.nonOverlappingIntervals_435;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 import java.util.Arrays;
 import java.util.Comparator;

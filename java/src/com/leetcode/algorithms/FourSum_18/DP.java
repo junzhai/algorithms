@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@com.leetcode.algorithms.pattern.DP
+@com.pattern.algorithms.DP
 /**
  * O(n2)
  */

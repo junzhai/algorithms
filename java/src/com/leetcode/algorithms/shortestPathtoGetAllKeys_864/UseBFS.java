@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.shortestPathtoGetAllKeys_864;
 
-import com.leetcode.algorithms.pattern.BFS;
+import com.pattern.algorithms.BFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

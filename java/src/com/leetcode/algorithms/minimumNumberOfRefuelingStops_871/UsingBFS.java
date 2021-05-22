@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumNumberOfRefuelingStops_871;
 
-import com.leetcode.algorithms.pattern.BFS;
+import com.pattern.algorithms.BFS;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.stampingTheSequence_936;
 
-import com.leetcode.algorithms.pattern.KMP;
+import com.pattern.algorithms.KMP;
 
 import java.util.Arrays;
 

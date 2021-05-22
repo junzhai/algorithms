@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.wordBreakII_140;
 
-import com.leetcode.algorithms.pattern.DFS;
+import com.pattern.algorithms.DFS;
 import org.junit.Assert;
 
 import java.util.ArrayList;

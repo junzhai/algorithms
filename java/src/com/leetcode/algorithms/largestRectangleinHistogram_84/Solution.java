@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.largestRectangleinHistogram_84;
 
-import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
+import com.pattern.algorithms.UnSortedArrayHistogram;
 import org.junit.Assert;
 
 @UnSortedArrayHistogram

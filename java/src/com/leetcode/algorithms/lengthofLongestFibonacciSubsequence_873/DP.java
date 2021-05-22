@@ -3,7 +3,7 @@ package com.leetcode.algorithms.lengthofLongestFibonacciSubsequence_873;
 import java.util.HashMap;
 import java.util.Map;
 
-@com.leetcode.algorithms.pattern.DP
+@com.pattern.algorithms.DP
 public class DP extends Solution {
     @Override
     public int lenLongestFibSubseq(int[] A) {

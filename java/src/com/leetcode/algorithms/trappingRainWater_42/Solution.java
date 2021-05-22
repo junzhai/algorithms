@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.trappingRainWater_42;
 
-import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
+import com.pattern.algorithms.UnSortedArrayHistogram;
 import org.junit.Assert;
 
 import java.util.Arrays;

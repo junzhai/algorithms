@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.capacityToShipPackagesWithinDDays_1011;
 
-@com.leetcode.algorithms.pattern.BinarySearch
+@com.pattern.algorithms.BinarySearch
 public class BinarySearch extends Solution {
     @Override
     public int shipWithinDays(int[] weights, int D) {

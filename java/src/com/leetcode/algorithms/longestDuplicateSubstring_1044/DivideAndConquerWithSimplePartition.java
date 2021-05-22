@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.longestDuplicateSubstring_1044;
 
-import com.leetcode.algorithms.pattern.DivideAndConquer;
+import com.pattern.algorithms.DivideAndConquer;
 
 import java.util.HashMap;
 import java.util.Map;

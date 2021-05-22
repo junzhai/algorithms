@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.xxx_countofRangeSum_327;
 
-import com.leetcode.algorithms.pattern.BinaryIndexedTree;
+import com.pattern.algorithms.BinaryIndexedTree;
 
 import java.util.Arrays;
 

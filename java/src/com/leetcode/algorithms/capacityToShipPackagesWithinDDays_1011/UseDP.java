@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.capacityToShipPackagesWithinDDays_1011;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 /**

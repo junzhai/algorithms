@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.largestSumofAverages_813;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 
 @DP
 public class UseDP1 extends Solution {

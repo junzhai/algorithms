@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.minimumScoreTriangulationofPolygon_1039;
 
-import com.leetcode.algorithms.pattern.DP;
+import com.pattern.algorithms.DP;
 import org.junit.Assert;
 
 @DP

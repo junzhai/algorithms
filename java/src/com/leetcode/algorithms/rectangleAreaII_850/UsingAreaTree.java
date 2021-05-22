@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.rectangleAreaII_850;
 
-import com.leetcode.algorithms.pattern.SegmentOrAreaOrKDTree;
+import com.pattern.algorithms.SegmentOrAreaOrKDTree;
 
 @SegmentOrAreaOrKDTree
 public class UsingAreaTree extends Solution {

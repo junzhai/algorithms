@@ -1,6 +1,6 @@
 package com.leetcode.algorithms.countofSmallerNumbersAfterSelf_315;
 
-import com.leetcode.algorithms.pattern.UnSortedArrayHistogram;
+import com.pattern.algorithms.UnSortedArrayHistogram;
 
 import java.util.ArrayList;
 import java.util.Arrays;
