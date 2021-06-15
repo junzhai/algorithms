@@ -19,6 +19,7 @@ public @interface BackTracking {
             "488. Zuma Game",
             "306. Additive Number",
             "216. Combination Sum III (problem domain is small and DP is expensive)",
-            "51. N-Queens"
+            "51. N-Queens",
+            "473. Matchsticks to Square"
     };
 }
