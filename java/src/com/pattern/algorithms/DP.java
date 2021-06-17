@@ -102,6 +102,7 @@ public @interface DP {
             "474. Ones and Zeroes",
             "377. Combination Sum IV",
             "97. Interleaving String",
-            "871. Minimum Number of Refueling Stops"
+            "871. Minimum Number of Refueling Stops",
+            "795. Number of Subarrays with Bounded Maximum"
     };
 }
