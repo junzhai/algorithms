@@ -18,6 +18,7 @@ public @interface BinaryIndexedTree {
             "1172. Dinner Plate Stacks",
             "493. Reverse Pairs",
             "1169. Invalid Transactions",
-            "933. Number of Recent Calls"
+            "933. Number of Recent Calls",
+            "307. Range Sum Query - Mutable"
     };
 }
