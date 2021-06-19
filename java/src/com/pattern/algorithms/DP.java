@@ -11,7 +11,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public @interface DP {
     public String desc() default "不同形态的动态规划（迭代），不能发散。"
             + "迭代过程中注意收集多种信息。"
-            + "动态规划的核心是对中间状态的分类";
+            + "动态规划的核心是对中间状态的分类"
+            + "迭代时尽量使用已有结果如629题";
 
     public String[] problems() default {
             "913",
@@ -103,6 +104,7 @@ public @interface DP {
             "377. Combination Sum IV",
             "97. Interleaving String",
             "871. Minimum Number of Refueling Stops",
-            "795. Number of Subarrays with Bounded Maximum"
+            "795. Number of Subarrays with Bounded Maximum",
+            "629. K Inverse Pairs Array"
     };
 }
