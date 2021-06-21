@@ -8,8 +8,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
 @Target({TYPE})
-public @interface VFS {
-    String desc() default "Value first search: （使用堆进行遍历）";
+public @interface Dijkstra {
+    String desc() default "Min/Max Value first search: （使用堆进行遍历）";
 
     String[] problems() default {
             "778. Swim in Rising Water",

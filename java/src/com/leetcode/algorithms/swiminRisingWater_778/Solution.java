@@ -1,13 +1,13 @@
 package com.leetcode.algorithms.swiminRisingWater_778;
 
-import com.pattern.algorithms.VFS;
+import com.pattern.algorithms.Dijkstra;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 import static org.junit.Assert.assertEquals;
 
-@VFS
+@Dijkstra
 public class Solution {
     public int swimInWater(int[][] grid) {
         int n = grid.length, ret = 0;
