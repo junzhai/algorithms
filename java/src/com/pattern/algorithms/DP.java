@@ -105,6 +105,7 @@ public @interface DP {
             "97. Interleaving String",
             "871. Minimum Number of Refueling Stops",
             "795. Number of Subarrays with Bounded Maximum",
-            "629. K Inverse Pairs Array"
+            "629. K Inverse Pairs Array",
+            "576. Out of Boundary Paths"
     };
 }
