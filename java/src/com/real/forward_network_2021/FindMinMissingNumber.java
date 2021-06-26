@@ -1,5 +1,8 @@
 package com.real.forward_network_2021;
 
+/**
+ * All numbers are positive
+ */
 public class FindMinMissingNumber {
     public int solution1(int[] nums) {
         int len = nums.length;
