@@ -17,6 +17,7 @@ public @interface SlidingWindow {
             "1052. Grumpy Bookstore Owner",
             "713. Subarray Product Less Than K (滑动窗口本质上可能就是一种动态规划)",
             "992. Subarrays with K Different Integers",
-            "1695. Maximum Erasure Value"
+            "1695. Maximum Erasure Value",
+            "1004. Max Consecutive Ones III (本质上就是动态规划)"
     };
 }
