@@ -71,7 +71,7 @@ mpc,xnys
 swks,xnas
 msft,xnas
 etn,xnys
-hon,xnys
+hon,xnas
 key,xnys
 fe,xnys
 eqr,xnys
