@@ -3,11 +3,11 @@ package com.pattern.algorithms;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import static java.lang.annotation.ElementType.TYPE;
+import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RUNTIME)
-@Target({TYPE})
+@Target({TYPE, METHOD})
 public @interface BFS {
     String desc() default "广度优先搜索，使用 1/2 queue";
 
@@ -25,6 +25,7 @@ public @interface BFS {
             "576. Out of Boundary Paths",
             "787. Cheapest Flights Within K Stops",
             "127. Word Ladder",
-            "45. Jump Game II"
+            "45. Jump Game II",
+            "2612. Minimum Reverse Operations (精细优化的BFS)"
     };
 }
