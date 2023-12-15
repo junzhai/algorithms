@@ -1,6 +1,7 @@
 package com.leetcode.algorithms.minimumReverseOperations_2612;
 
 import com.pattern.algorithms.BFS;
+import com.pattern.algorithms.JavaTreeSet;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -9,7 +10,7 @@ import java.util.TreeSet;
 @BFS
 public class UseTreeSet extends Solution {
 
-    @com.pattern.algorithms.TreeSet
+    @JavaTreeSet
     @Override
     public int[] minReverseOperations(int n, int p, int[] banned, int k) {
         int[] ans = new int[n];
