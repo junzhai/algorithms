@@ -15,20 +15,20 @@ public @interface DP {
             + "迭代时尽量使用已有结果如629题";
 
     public String[] problems() default {
-            "913",
-            "312",
+            "62. Unique Paths",
             "115",
             "124",
-            "338. Counting Bits （主动扩散）",
-            "549. Binary Tree Longest Consecutive Sequence II （树的父子迭代）",
-            "903. Valid Permutations for DI Sequence （迭代并限制发散）",
-            "730. Count Different Palindromic Subsequences  （Histogram 且迭代）",
-            "62. Unique Paths",
-            "542. 01 Matrix",
-            "756. Pyramid Transition Matrix",
             "309. Best Time to Buy and Sell Stock with Cooldown",
+            "312",
+            "338. Counting Bits （主动扩散）",
             "375. Guess Number Higher or Lower II",
+            "542. 01 Matrix",
+            "549. Binary Tree Longest Consecutive Sequence II （树的父子迭代）",
+            "730. Count Different Palindromic Subsequences  （Histogram 且迭代）",
+            "756. Pyramid Transition Matrix",
             "790. Domino and Tromino Tiling",
+            "903. Valid Permutations for DI Sequence （迭代并限制发散）",
+            "913",
             "486. Predict the Winner",
             "873. Length of Longest Fibonacci Subsequence",
             "920. Number of Music Playlists",
@@ -106,6 +106,7 @@ public @interface DP {
             "871. Minimum Number of Refueling Stops",
             "795. Number of Subarrays with Bounded Maximum",
             "629. K Inverse Pairs Array",
-            "576. Out of Boundary Paths"
+            "576. Out of Boundary Paths",
+            "codewars - Maximum subarray sum"
     };
 }
