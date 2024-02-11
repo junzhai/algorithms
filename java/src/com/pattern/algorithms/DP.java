@@ -9,12 +9,12 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target({TYPE})
 public @interface DP {
-    public String desc() default "不同形态的动态规划（迭代），不能发散。"
+    String desc() default "不同形态的动态规划（迭代），不能发散。"
             + "迭代过程中注意收集多种信息。"
             + "动态规划的核心是对中间状态的分类"
             + "迭代时尽量使用已有结果如629题";
 
-    public String[] problems() default {
+    String[] problems() default {
             "62. Unique Paths",
             "115",
             "124",
@@ -107,6 +107,7 @@ public @interface DP {
             "795. Number of Subarrays with Bounded Maximum",
             "629. K Inverse Pairs Array",
             "576. Out of Boundary Paths",
-            "codewars - Maximum subarray sum"
+            "codewars - Maximum subarray sum",
+            "2781. Length of the Longest Valid Substring"
     };
 }
