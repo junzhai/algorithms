@@ -3,12 +3,10 @@ package com.leetcode.algorithms.minimumReverseOperations_2612;
 import com.pattern.algorithms.BFS;
 import com.pattern.algorithms.JavaTreeSet;
 
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 @BFS
-public class UseTreeSet extends Solution {
+public class UseTreeSet_1 extends Solution {
 
     @JavaTreeSet
     @Override
