@@ -13,17 +13,32 @@ abstract public class Solution {
         Solution s = new UseTreeSet_1();
         s = new TreeMapInterval();
         s = new UseSegmentTree();
+        s = new BFSRangeUseTreeSet();
+        s = new BFSRangeUseTreeMap();
         int[] ret;
+
+        ret = s.minReverseOperations(4, 2, new int[]{}, 2);
+        Assert.assertArrayEquals(new int[]{2, 1, 0, 1}, ret);
+
         Assert.assertArrayEquals(new int[]{0}, s.minReverseOperations(1, 0, new int[]{}, 1));
-        Assert.assertArrayEquals(new int[]{0, 1, 2, 3, 4}, s.minReverseOperations(5, 0, new int[]{}, 2));
+        ret = s.minReverseOperations(6, 4, new int[]{}, 2);
+        Assert.assertArrayEquals(new int[]{1, -1, -1, -1, 0}, s.minReverseOperations(5, 4, new int[]{}, 5));
 
+        ret = s.minReverseOperations(5, 1, new int[]{}, 4);
+        Assert.assertArrayEquals(new int[]{3, 0, 1, 2, 1}, ret);
 
-        int[] banned = LargeCaseUtil.readArray("src/com/leetcode/algorithms/minimumReverseOperations_2612/case1");
+        ret = s.minReverseOperations(5, 0, new int[]{}, 2);
+        Assert.assertArrayEquals(new int[]{0, 1, 2, 3, 4}, ret);
+
+        ret = s.minReverseOperations(5, 0, new int[]{}, 4);
 
         ret = s.minReverseOperations(4, 0, new int[]{}, 4);
-        ret = s.minReverseOperations(5, 0, new int[]{}, 4);
-        Assert.assertArrayEquals(new int[]{0, -1, -1, 1}, s.minReverseOperations(4, 0, new int[]{}, 4));
-        Assert.assertArrayEquals(new int[]{0, 3, 2, 1, 2, 3}, s.minReverseOperations(6, 0, new int[]{}, 4));
+        Assert.assertArrayEquals(new int[]{0, -1, -1, 1}, ret);
+
+        ret = s.minReverseOperations(6, 0, new int[]{}, 4);
+        Assert.assertArrayEquals(new int[]{0, 3, 2, 1, 2, 3}, ret);
+
+        int[] banned = LargeCaseUtil.readArray("src/com/leetcode/algorithms/minimumReverseOperations_2612/case1");
         ret = s.minReverseOperations(100000, 68887, banned, 39421);
     }
 }
