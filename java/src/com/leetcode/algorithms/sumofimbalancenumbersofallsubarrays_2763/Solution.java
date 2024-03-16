@@ -8,39 +8,75 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
+
+    private int overlap(int range1Start, int range1End, int range2Start, int range2End) {
+        int start = Math.max(range1Start, range2Start), end = Math.min(range1End, range2End);
+        return start <= end ? end - start + 1 : 0;
+    }
+
+    private int calImbalanceNumberChange(int[] nums, int idx, int[] valPos) {
+        int change = 0;
+        int curVal = nums[idx];
+        int firstValidSubArrIdx = 0;
+
+        // check current value
+        firstValidSubArrIdx = Math.max(firstValidSubArrIdx, valPos[curVal] + 1);
+        if (firstValidSubArrIdx >= idx) {
+            return 0;
+        }
+
+        // check current value +/-1
+
+        // curVal - 1, curVal + 1 both exist, imbalance number decrease
+        change -= overlap(0, Math.min(valPos[curVal - 1], valPos[curVal + 1]), firstValidSubArrIdx, idx - 1);
+
+        //
+        change -= overlap(0, Math.max(valPos[curVal - 1], valPos[curVal + 1]) + 1, firstValidSubArrIdx, idx - 1);
+
+
+    }
+
     public int sumImbalanceNumbers(int[] nums) {
-        int[] min = new int[nums.length];
-        int[] minPos = new int[nums.length];
-        min[0] = nums[0];
-        minPos[0] = 0;
+        int[][] minValBuf = new int[nums.length][2];
+        minValBuf[0][0] = nums[0];
+        minValBuf[0][1] = 0;
+        int minValBufLen = 1;
 
-        Integer[] max = new Integer[nums.length];
-        int[] maxPos = new int[nums.length];
-        max[0] = nums[0];
-        maxPos[0] = 0;
+        int[][] maxValBuf = new int[nums.length][2];
+        maxValBuf[0][0] = nums[0];
+        maxValBuf[0][1] = 0;
+        int maxValBufLen = 1;
 
-        int minL = 1, maxL = 1;
-
-        Map<Integer, Integer> pos = new HashMap<>();
-        pos.put(nums[0], 0);
+        int[] valPos = new int[nums.length + 2];
+        Arrays.fill(valPos, -1);
+        valPos[nums[0]] = 0;
 
         int ret = 0;
-        for (int i = 1; i < nums.length; i++) {
-            int s = Math.max(pos.getOrDefault(nums[i], -1), pos.getOrDefault(nums[i] - 1, -1)) + 1;
+        for (int i = 1, curNumber = 0; i < nums.length; i++) {
+            // subarry starts from (0, i - 1)
+            int firstValidSubArrIdx = 0;
+
+            // check current value nums[i]
+            firstValidSubArrIdx = Math.max(firstValidSubArrIdx, valPos[nums[i]] + 1);
+            if (firstValidSubArrIdx >= i) {
+
+            }
+
+            int s = Math.max(valPos.getOrDefault(nums[i], -1), valPos.getOrDefault(nums[i] - 1, -1)) + 1;
             int e;
-            int p = Arrays.binarySearch(min, 0, minL, nums[i] - 2);
+            int p = Arrays.binarySearch(minValBuf, 0, minValBufLen, nums[i] - 2);
             if (p >= 0) {
-                if (p == minL - 1) {
+                if (p == minValBufLen - 1) {
                     e = i - 1;
                 } else {
-                    e = minPos[p + 1] - 1;
+                    e = minValueSubArryPos[p + 1] - 1;
                 }
             } else {
                 p = -(p + 1);
-                if (p == minL) {
+                if (p == minValBufLen) {
                     e = i - 1;
                 } else {
-                    e = minPos[p] - 1;
+                    e = minValueSubArryPos[p] - 1;
                 }
             }
             int l = Math.max(0, s), r = Math.min(e, i - 1);
@@ -48,21 +84,21 @@ public class Solution {
                 ret += (r - l + 1) * (nums.length - i);
             }
 
-            s = Math.max(pos.getOrDefault(nums[i], -1), pos.getOrDefault(nums[i] + 1, -1)) + 1;
-            p = Arrays.binarySearch(max, 0, maxL, nums[i] + 2, new Comparator<Integer>() {
+            s = Math.max(valPos.getOrDefault(nums[i], -1), valPos.getOrDefault(nums[i] + 1, -1)) + 1;
+            p = Arrays.binarySearch(maxValBuf, 0, maxValBufLen, nums[i] + 2, new Comparator<Integer>() {
                 public int compare(Integer a, Integer b) {
                     return b - a;
                 }
             });
             if (p >= 0) {
-                if (p == maxL - 1) {
+                if (p == maxValBufLen - 1) {
                     e = i - 1;
                 } else {
                     e = maxPos[p + 1] - 1;
                 }
             } else {
                 p = -(p + 1);
-                if (p == maxL) {
+                if (p == maxValBufLen) {
                     e = i - 1;
                 } else {
                     e = maxPos[p] - 1;
@@ -74,38 +110,38 @@ public class Solution {
                 ret += (r - l + 1) * (nums.length - i);
             }
 
-            pos.put(nums[i], i);
+            valPos.put(nums[i], i);
 
-            p = Arrays.binarySearch(min, 0, minL, nums[i]);
+            p = Arrays.binarySearch(minValBuf, 0, minValBufLen, nums[i]);
             if (p >= 0) {
-                minL = p + 1;
+                minValBufLen = p + 1;
             } else {
                 p = -(p + 1);
-                if (p == minL) {
-                    min[p] = nums[i];
-                    minPos[p] = i;
+                if (p == minValBufLen) {
+                    minValBuf[p] = nums[i];
+                    minValueSubArryPos[p] = i;
                 } else {
-                    min[p] = nums[i];
+                    minValBuf[p] = nums[i];
                 }
-                minL = p + 1;
+                minValBufLen = p + 1;
             }
 
-            p = Arrays.binarySearch(max, 0, maxL, nums[i], new Comparator<Integer>() {
+            p = Arrays.binarySearch(maxValBuf, 0, maxValBufLen, nums[i], new Comparator<Integer>() {
                 public int compare(Integer a, Integer b) {
                     return b - a;
                 }
             });
             if (p >= 0) {
-                maxL = p + 1;
+                maxValBufLen = p + 1;
             } else {
                 p = -(p + 1);
-                if (p == maxL) {
-                    max[p] = nums[i];
+                if (p == maxValBufLen) {
+                    maxValBuf[p] = nums[i];
                     maxPos[p] = i;
                 } else {
-                    max[p] = nums[i];
+                    maxValBuf[p] = nums[i];
                 }
-                maxL = p + 1;
+                maxValBufLen = p + 1;
             }
         }
 
