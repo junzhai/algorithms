@@ -108,6 +108,7 @@ public @interface DP {
             "629. K Inverse Pairs Array",
             "576. Out of Boundary Paths",
             "codewars - Maximum subarray sum",
-            "2781. Length of the Longest Valid Substring"
+            "2781. Length of the Longest Valid Substring",
+            "2518. Number of Great Partitions"
     };
 }
