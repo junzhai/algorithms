@@ -14,6 +14,7 @@ public @interface KMP {
     String[] problems() default {
             "28",
             "44. Wildcard Matching. (KMP with variations)",
-            "936. Stamping The Sequence"
+            "936. Stamping The Sequence",
+            "HackerRank: The Grid Search"
     };
 }
