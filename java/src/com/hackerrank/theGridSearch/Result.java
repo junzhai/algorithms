@@ -16,7 +16,7 @@ public class Result {
      */
 
     public static String gridSearch(List<String> G, List<String> P) {
-        int C = G.getFirst().length();
+        int C = G.get(0).length();
         int c = P.get(0).length();
         int[] pv = calculateKMPVector(P);
 
